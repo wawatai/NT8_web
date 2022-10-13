@@ -1,0 +1,140 @@
+.mainWrap {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+
+    .center {
+        width: 1400px;
+        height: auto;
+        margin: 0 auto;
+
+        //跑馬燈
+        .marqueeArea {
+            width: 100%;
+            height: 50px;
+            background: $marquee_BG;
+            box-shadow: 1px 6px 6px $marquee_Shadow ;
+            border: 1px solid $marquee_Border;
+            border-radius: 25px;
+            margin: 10px 0 60px;
+
+            .center {
+                width: 100%;
+                height: 100%;
+
+                .marqueeWrap {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    .marquee_ic {
+                        width: 78px;
+                        height: 102%;
+                        border-radius: 25px;
+                        background: $marquee_Linear;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin: 0 0 0 -1px;
+
+                        i {
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+
+                    .marquee {
+                        width: 100%;
+                        height: auto;
+                        overflow: hidden;
+
+                        p {
+                            font-size: 15px;
+                            font-weight: bold;
+                            color: $marquee_Word;
+                            display: inline-block;
+                            animation: marquee 10s linear infinite;
+                            padding-left: 100%;
+                            white-space: nowrap;
+                        }
+
+                        @keyframes marquee {
+                            0% {
+                                transform: translate(0%);
+                            }
+
+                            100% {
+                                transform: translate(-100%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        //中間選單
+        .typeList {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+
+            li {
+                width: auto;
+                height: auto;
+                margin: 0 16px 16px 0;
+                position: relative;
+                cursor: pointer;
+
+                &:nth-of-type(4n) {
+                    margin-right: 0px;
+                }
+
+                p {
+                    color: $title_1;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 26px;
+                    font-weight: bold;
+                }
+
+                .fixBox {
+                    display: none;
+                    position: absolute;
+                    width: 100%;
+                    height: 85%;
+                    border-radius: 5px;
+                    background: $filter;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    top: 49%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    cursor: not-allowed;
+
+                    &.display {
+                        display: flex;
+                    }
+
+                    p {
+                        color: $mainFont_2;
+                        font-size: 14px;
+                        font-weight: bold;
+                        line-height: 24px;
+
+                        &.title {
+                            font-size: 26px;
+                            margin-bottom: 30px;
+                        }
+
+                        &:nth-of-type(3){
+                            margin-left: -11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
