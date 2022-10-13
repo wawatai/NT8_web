@@ -620,4 +620,25 @@ $(function(){
         $('.app_3').addClass('display');
         $('.app_3').siblings().removeClass('display');
     })
+
+    //goTop
+    $(function(){
+        $(window).scroll(function () {
+            var scrollVal = $(this).scrollTop();
+            if(scrollVal > 0){
+                    $(".goTOP")
+                    .addClass("display")
+            } else{
+                    $(".goTOP")
+                    .removeClass("display");
+            };
+        })
+    
+        $(".goTOP").click(function(){
+            var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body'); //各瀏覽器相容性
+            $body.delay('0').animate({
+                    scrollTop: 0
+            },500)
+        })
+    })
 })

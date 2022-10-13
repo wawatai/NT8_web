@@ -141,7 +141,7 @@ $header_LV_2: #008599;
 }
 
 @mixin headerBtn_2 {
-  background: linear-gradient(to bottom, #e8e8e8 0%, #ffffff 82%);
+  background: linear-gradient(to top, #e8e8e8 0%, #ffffff 82%);
   color: #a2741f;
   font-size: 15px;
   padding: 0 8px;
@@ -248,8 +248,9 @@ $marquee_Shadow: #00000046;
 $marquee_Linear: linear-gradient(to top, #b68222 0%, #df9e28 100%);
 $marquee_LinearWord: #ffffff;
 
-//gameWrap大title字漸層
-$gameWrap_Linear: linear-gradient(to bottom, #e0cb89 0%, #a66e33 100%);
+//gameWrap大title字
+$gameWrap_Linear: linear-gradient(to bottom, #c6740a 0%, #f2aa1f 81%);
+$gameWrap_smallTitle: #cc7d0e;
 
 //vipCard字樣式
 @mixin cardWord {
