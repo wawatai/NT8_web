@@ -51,6 +51,12 @@ header .transferInfo .money i {
     background: url('../images/icon/mqIC.png') no-repeat;
     background-size: 100%;
 }
+.ad .slick-arrow.slick-prev::after,
+.ad .slick-arrow.slick-next::after {
+    background: url(../images/icon/adArrow.png) no-repeat;
+    background-size: contain;
+}
+
 
 //footer
 
@@ -61,11 +67,6 @@ footer .top li.active {
     background-size: 100%;
 }
 
-//jumpWindow ic
-.jumpWindow .close_ic {
-    background: url('../images/icon/svg/close_w.svg') no-repeat;
-    background-size: 100%;
-}
 .jumpWindow.betWindow .trans_arrow {
     background: url('../images/icon/svg/transfer_arrow.svg') no-repeat;
     background-size: 100%;
@@ -152,7 +153,7 @@ footer .top li.active {
     background-size: 100%;
 }
 .innerNav .dividend_ic {
-    background: url('../images/icon/svg/innerNav_dividend.svg');
+    background: url('../images/icon/svg/innerNav_dividend.svg') no-repeat;
     background-size: 100%;
 }
 .innerNav .invite_ic {
@@ -310,7 +311,7 @@ footer .top li.active {
 
 //help_bg
 .helpPage {
-    background: url('../images/help_bg.png') no-repeat top center;
+    background: url('../images/bg.png') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -332,7 +333,7 @@ footer .top li.active {
     background-size: 100%;
 }
 .helpPage .nav .app {
-    background: url(../images/icon/download.png) no-repeat;
+    background: url(../images/icon/help_download.png) no-repeat;
     background-size: contain;
 }
 //helpPage .teachList arrow_ic

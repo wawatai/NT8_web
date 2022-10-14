@@ -9,10 +9,13 @@ $mainBorder_2: #c29f64;
 //主字色
 $mainFont_1: #333333;
 $mainFont_2: #ffffff;
+$mainFont_3: #4c4d53;
+$mainFont_4: #956817;
 
 //提醒字色
 $remind: #e11515;
-$remind_sp: #4ec500;
+$remind02: #181dd5;
+$remind_sp: #158b18;
 $remind_sp2: #008599;
 
 //陰影色
@@ -25,12 +28,12 @@ $choose_Border: #f7be50;
 
 //標題色
 $title_1: #77400b;
-$title_2: #000000;
+$title_2: #956817;
 $title_3: #666666;
 $title_Time: #999999;
 
 //金錢色
-$money: #000000;
+$money: #1c42bd;
 
 //連結色
 $link: #c69c6d;
@@ -39,7 +42,8 @@ $link: #c69c6d;
 $filter: #0000009e;
 
 //彈窗標頭色
-$jumpWindow_Header: linear-gradient(to left, #e0cb89 0%, #de9649 100%);
+$jumpWindow_Header: linear-gradient(to right, #eaa92c 3%, #dda12e 43%, #ffd147 89%);
+$jumpWindow_closeIC: #ab7617;
 
 //帳號低中高強度
 $low: #e11515;
@@ -51,25 +55,17 @@ $check: #05b900;
 
 //左選擇列hover樣式
 @mixin navHover {
-  background: #f7e4c2;
-
-  &::before {
-    content: "";
-    position: absolute;
-    width: 3px;
-    height: 100%;
-    left: 0px;
-    top: 0px;
-    background: #a28653;
-  }
+  background: #fce6a8;
+  color: $mainFont_1;
 }
 
 //lv樣式
 @mixin level {
-  background: #cfb53d;
+  background: #cc9022;
   color: #ffffff;
-  padding: 3px 8px;
-  border-radius: 5px;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-radius: 20px;
 }
 
 //level升級條樣式
@@ -98,6 +94,7 @@ $header_LV_BG: #b78220;
 $header_memberID: #593619;
 $header_LV_1: #777777;
 $header_LV_2: #008599;
+
 @mixin headerBorder {
   &::before {
     content: "";
@@ -144,7 +141,7 @@ $header_LV_2: #008599;
   background: linear-gradient(to top, #e8e8e8 0%, #ffffff 82%);
   color: #a2741f;
   font-size: 15px;
-  padding: 0 8px;
+  padding: 0 14px;
   font-weight: bold;
   box-shadow: 0px 2px 3px rgb(0, 0, 0, 30%);
   border-radius: 30px;
@@ -244,13 +241,18 @@ $sideBar_Word2: #5e3207;
 $marquee_BG: #ffffff;
 $marquee_Word: #494b55;
 $marquee_Border: #dd9d28;
-$marquee_Shadow: #00000046;
+$marquee_Shadow: #0000001f;
 $marquee_Linear: linear-gradient(to top, #b68222 0%, #df9e28 100%);
 $marquee_LinearWord: #ffffff;
 
 //gameWrap大title字
 $gameWrap_Linear: linear-gradient(to bottom, #c6740a 0%, #f2aa1f 81%);
 $gameWrap_smallTitle: #cc7d0e;
+
+//innerPage
+$naviconCircle: linear-gradient(to top, #f8cf56 0%, #df9e28 29%, #ffd967 62%);
+$innerBlock_Border: #dd9d28;
+$innerPlatBox_BG: #fffdf7;
 
 //vipCard字樣式
 @mixin cardWord {
@@ -372,19 +374,22 @@ $footerNAV_HOV: #aa7217;
 
 //最常用按鈕
 @mixin mainBtn {
-  background: linear-gradient(to top, #fae0af 0%, #d7b676 50%, #f8fbc0 100%);
+  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
   border: solid 1px #cca172;
-  color: #ffffff;
+  color: $mainFont_1;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
-  border-radius: 3px;
+  border-radius: 10px;
 
   &:hover,
   &:active,
   &.active {
-    background: linear-gradient(to top, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
-  }
+    background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
+    border: 1px solid #f7be50;
+    color: #ffe167;
+    box-shadow: 0px 2px 6px rgb(0, 0, 0, 30%);
+}
 }
 //遊戲快速轉帳彈窗按鈕
 @mixin fastBtn {
@@ -564,41 +569,43 @@ $footerNAV_HOV: #aa7217;
 }
 //內頁左列快速選擇轉存提按鈕
 @mixin quick {
-  background: #f5f4b8;
+  background: linear-gradient(to top, #b68222 0%, #df9e28 100%);
   border: solid 1px #dfc280;
-  color: #c29f64;
+  color: #ffffff;
   border-radius: 50%;
   font-size: 21px;
   text-align: center;
   display: flex;
   align-items: center;
+  box-shadow: 0px 2px 6px $mainShadow_1;
   justify-content: center;
   font-weight: bold;
 
   &:hover,
   &:active,
   &.active {
-    background: #c29f64;
-    color: #ffffff;
+    background: #94650e;
   }
 }
-//大灰頁籤按鈕
+//innerPage頁籤按鈕
 @mixin grayBtn {
   background: #999999;
-  border-radius: 5px 5px 0 0;
+  border-radius: 25px 25px 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
+  padding: 0 15px;
+  box-sizing: border-box;
   cursor: pointer;
 
   &:hover,
   &:active,
   &.active {
-    background: linear-gradient(135deg, #efe49b 0%, #008599 100%);
+    background: linear-gradient(0deg, #df9e28 0%, #b68222 46%, #f5bc32 100%);
   }
 }
 
@@ -610,12 +617,26 @@ button:disabled {
   cursor: not-allowed;
 }
 
+//彈窗按鈕
+@mixin jumpwindowBTN {
+    background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px $mainShadow_1;
+
+    &:hover,&:active,&.active {
+      background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+      box-shadow: 0 3px 8px $mainShadow_1;
+    }
+}
+
 //input
 
 //最常用input
 @mixin mainInput {
   background: #ffffff;
-  border: solid 1px #cccccc;
+  border: solid 1px #aeaeae;
   color: #000000;
   font-size: 14px;
   font-weight: bold;

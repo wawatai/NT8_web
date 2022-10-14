@@ -1,6 +1,6 @@
 .innerPage {
-    background: $mainBG_2;
-    padding: 20px 0 40px;
+    //background: $mainBG_2;
+    padding: 10px 0 41px;
 
     //跑馬燈
     .marqueeArea {
@@ -95,7 +95,7 @@
         //左列
         .innerSide {
             background: $mainBG_1;
-            border-radius: 5px;
+            border-radius: 30px 30px 0 0;
             box-shadow: 0 5px 10px -5px $mainShadow_1;
             width: 245px;
             height: auto;
@@ -111,7 +111,7 @@
                 div {
     
                     .account {
-                        color: $mainFont_1;
+                        color: $mainFont_3;
                         font-size: 14px;
                         font-weight: bold;
                         display: flex;
@@ -180,62 +180,80 @@
                     font-size: 14px;
                     font-weight: bold;
                     cursor: pointer;
-                    color: $mainFont_1;
+                    color: $mainFont_4;
 
                     &:hover,&:active,&.active {
                         @include navHover;
+
+                        .circleOutter {
+                            background: transparent;
+                        }
                     }
 
                     &:nth-of-type(1),&:nth-of-type(4),&:nth-of-type(9) {
                         border-top: solid 1px $mainBorder_1;
                     }
 
-                    i {
-                        display: block;
+                    .circleOutter {
+                        width: 26px;
+                        height: 26px;
+                        background: $naviconCircle;
+                        border-radius: 50px;
+                        padding: 5px;
+                        box-sizing: border-box;
                         position: absolute;
-                        top: 50%;
-                        transform: translateY(-50%);
-                        left: 25px;
-                        
-                        &.user_ic {
-                            width: 14px;
-                            height: 16px;
-                        }
-                        &.vip_ic {
-                            width: 17px;
-                            height: 17px;
-                        }
-                        &.wallet_ic {
-                            width: 15px;
-                            height: 13px;
-                        }
-                        &.card_ic {
-                            width: 17px;
-                            height: 15px;
-                        }
-                        &.dealRecord_ic {
-                            width: 13px;
-                            height: 15px;
-                        }
-                        &.betRecord_ic {
-                            width: 12px;
-                            height: 16px;
-                        }
-                        &.event_ic {
-                            width: 13px;
-                            height: 18px;
-                        }
-                        &.mail_ic {
-                            width: 14px;
-                            height: 11px;
-                        }
-                        &.dividend_ic {
-                            width: 15px;
-                            height: 14px;
-                        }
-                        &.invite_ic {
-                            width: 20px;
-                            height: 20px;
+                        top: 12px;
+                        left: 20px;
+
+                        i {
+                            display: block;
+                                   
+                            &.user_ic {
+                                width: 12px;
+                                height: 20px;
+                                margin-left: 2.5px;
+                            }
+                            &.vip_ic {
+                                width: 17px;
+                                height: 17px;
+                            }
+                            &.wallet_ic {
+                                width: 15px;
+                                height: 13px;
+                            }
+                            &.card_ic {
+                                width: 17px;
+                                height: 15px;
+                            }
+                            &.dealRecord_ic {
+                                width: 13px;
+                                height: 15px;
+                                margin-left: 2px;
+                            }
+                            &.betRecord_ic {
+                                width: 12px;
+                                height: 16px;
+                                margin-left: 3px;
+                            }
+                            &.event_ic {
+                                width: 13px;
+                                height: 18px;
+                                margin: -1px 2.5px;
+                            }
+                            &.mail_ic {
+                                width: 14px;
+                                height: 11px;
+                                margin: 2px 0 0 1px;
+                            }
+                            &.dividend_ic {
+                                width: 15px;
+                                height: 14px;
+                                margin-left: 1px;
+                            }
+                            &.invite_ic {
+                                width: 16px;
+                                height: 16px;
+                            }
                         }
                     }
                 }
@@ -1053,7 +1071,8 @@
                     margin-bottom: 56px;
                     background: $mainBG_1;
                     box-shadow: 0px 5px 10px -5px $mainShadow_1;
-                    border-radius: 5px;
+                    border-radius: 25px 25px 0 0;
+                    border: 1px solid $innerBlock_Border;
 
                     .title {
                         display: flex;
@@ -1066,6 +1085,7 @@
                         letter-spacing: 2px;
                         color: $title_2;
                         font-weight: bold;
+                        border-bottom: 1px solid $innerBlock_Border;
                     }
 
                     .content {
@@ -1077,7 +1097,17 @@
                             box-sizing: border-box;
                             padding: 14px 24px 0;
                             height: 180px;
-                            border-right: solid 1px $mainBorder_1;
+                            position: relative;
+
+                            &:before {
+                                content: "";
+                                width: 2px;
+                                height: 100px;
+                                background: $mainBorder_1;
+                                position: absolute;
+                                top: 40px;
+                                right: 0;
+                            }
                             
                             .totalTitle {
                                 display: flex;
@@ -1086,7 +1116,7 @@
                                 margin-bottom: 16px;
                                 font-size: 17px;
                                 letter-spacing: 2px;
-                                color: $title_1;
+                                color: $mainFont_3;
                                 font-weight: bold;
 
                                 button {
@@ -1095,6 +1125,7 @@
                                     @include mainBtn;
                                     padding: 0 5px;
                                     font-size: 12px;
+                                    box-shadow: 0 2px 6px $mainShadow_1;
                                 }
                             }
 
@@ -1124,7 +1155,7 @@
                                 margin-bottom: 16px;
                                 font-size: 17px;
                                 letter-spacing: 2px;
-                                color: $title_2;
+                                color: $mainFont_3;
                                 font-weight: bold;
                             }
 
@@ -1180,7 +1211,8 @@
 
                     .platformWallet {
                         display: none;
-                        padding: 21px 23px 0;
+                        padding: 21px 23px;
+                        border: 1px solid $innerBlock_Border;
 
                         &.display {
                             display: block;
@@ -1206,8 +1238,9 @@
                                 box-sizing: border-box;
                                 height: auto;
                                 margin: 0 9px 9px 0;
-                                border-radius: 5px;
-                                border: solid 1px $mainBorder_1;
+                                background: $innerPlatBox_BG;
+                                border-radius: 10px;
+                                border: solid 1px $mainBorder_2;
                                 padding: 18px;
 
                                 &:nth-of-type(5n) {
@@ -1217,7 +1250,7 @@
                                 div {
                                     font-size: 16px;
                                     margin-bottom: 8px;
-                                    color: $mainFont_1;
+                                    color: $mainFont_3;
                                     font-weight: bold;
                                     line-height: 18px;
                                 }
@@ -1474,11 +1507,12 @@
                 height: auto;
                 background: $mainBG_1;
                 box-shadow: 0 5px 10px -5px $mainShadow_1;
-                border-radius: 5px;
+                border-radius: 25px 25px 0 0;
                 margin-bottom: 17px;
 
                 &:last-child {
                     margin: 0;
+                    border-radius: 0;
                 }
 
                 .title {
@@ -1489,10 +1523,10 @@
                     height: 43px;
                     box-sizing: border-box;
                     padding: 0 20px;
-                    border-bottom: solid 1px $mainBorder_1;
+                    border-bottom: solid 1px $innerBlock_Border;
                     font-size: 16px;
                     letter-spacing: 2px;
-                    color: $title_2;
+                    color: $mainFont_4;
                     font-weight: bold;
 
                     .more {
@@ -1524,7 +1558,7 @@
 
                         .transList {
                             height: 53px;
-                            border-bottom: solid 1px $mainBorder_1;
+                            border-bottom: solid 1px $innerBlock_Border;
                             margin-bottom: 13px;
                             display: flex;
                             flex-direction: column;
@@ -1571,9 +1605,9 @@
                     }
 
                     .smallList {
-                        height: 84px;
+                        height: 85px;
                         padding: 8px 18px 12px;
-                        border-bottom: solid 1px $mainBorder_1;
+                        border-bottom: solid 1px $innerBlock_Border;
                         box-sizing: border-box;
 
                         .smallTitle {
@@ -1603,8 +1637,18 @@
 
                                     &:last-child {
                                         font-size: 14px;
-                                        margin-top: 6px;
-                                        color: $mainFont_1;
+                                        font-weight: bold;
+                                        margin-top: 8px; 
+                                    }
+
+                                    &.bet {
+                                        color: $money;
+                                    }
+                                    &.lose {
+                                        color: $remind;
+                                    }
+                                    &.win {
+                                        color: $remind_sp;
                                     }
                                 }
                             }

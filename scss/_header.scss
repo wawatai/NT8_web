@@ -77,7 +77,25 @@ header {
                         width: auto;
                         height: 28px;
                         border: 1px solid transparent;
-                        margin: 0 3px;
+                        margin: 0 4px;
+                    }
+                    &:nth-of-type(7) {
+                        position: relative;
+                        
+                        &:before {
+                            content: "9";
+                            width: 18px;
+                            height: 18px;
+                            border-radius: 15px;
+                            background: $remind02;
+                            color: $mainFont_2;
+                            font-size: 12px;
+                            padding: 2px 5px;
+                            box-sizing: border-box;
+                            position: absolute;
+                            top: -5px;
+                            left: -8px;
+                        }
                     }
                     &:nth-of-type(8) {
                         @include headerBtn_1;
@@ -149,11 +167,7 @@ header {
                     color: $header_memberID;
 
                     span {
-                        background: $header_LV_BG;
-                        color: $mainFont_2;
-                        font-weight: bold;
-                        padding: 3px 10px;
-                        border-radius: 20px;
+                        @include level;
                         margin-right: 10px;
                     }
                 }
@@ -178,7 +192,6 @@ header {
                 //transfer
                 &.moneyTotal {
                     position: relative;
-                    color: $header_Money;
                     @include headerArrow;
                     padding: 0 20px 0 14px;
 
@@ -187,6 +200,7 @@ header {
                     }
 
                     .total {
+                        color: $remind02;
                         padding-right: 8px;
                     }
 
@@ -242,6 +256,7 @@ header {
                 //語言列
                 &.lang {
                     width: 105px;
+                    height: 32px;
                     
                     select {
                         width: auto;
@@ -267,9 +282,7 @@ header {
             align-items: center;
             justify-content: space-between;
 
-            .logo {
-                margin-top: 10px;
-            }
+            
 
             ul {
                 width: auto;
