@@ -57,8 +57,8 @@ header .transferInfo .money i {
     background: url('../images/icon/mqIC.png') no-repeat;
     background-size: 100%;
 }
-.ad .slick-arrow.slick-prev,
-.ad .slick-arrow.slick-next {
+.ad .slick-arrow.slick-prev::before,
+.ad .slick-arrow.slick-next::before {
     background: url('../images/icon/adArrow.png') no-repeat;
     background-size: contain;
 }
@@ -116,8 +116,8 @@ footer .top li.active {
 }
 //eventBody .side li i
 .eventBody .event_ic {
-    background: url('../images/icon/svg/entire.svg') no-repeat;
-    background-size: 100%;
+    background: url('../images/icon/entire.png') no-repeat;
+    background-size: 200%;
 }
 //eventDetail .back
 .eventDetail .back_ic {
