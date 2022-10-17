@@ -27,7 +27,6 @@ input:read-only {
 
 .bg {
   background: url("../images/bg.png") no-repeat top center;
-  background-size: cover;
 }
 
 header {
@@ -1663,7 +1662,7 @@ html body .filter .jumpWindow.forgetPassword form input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
   border-radius: 30px;
   padding: 0 15px;
 }
@@ -1703,7 +1702,7 @@ html body .filter .jumpWindow.forgetPassword form button:hover, html body .filte
 html body .filter .jumpWindow.forgetPassword form p {
   font-size: 14px;
   margin: 30px 0;
-  color: #181dd5;
+  color: #e11515;
 }
 html body .filter .jumpWindow.news {
   display: none;
@@ -1869,7 +1868,7 @@ html body .filter .jumpWindow.passwordWindow form .content input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .filter .jumpWindow.passwordWindow form .content input::-webkit-input-placeholder {
   color: #848484;
@@ -1967,7 +1966,7 @@ html body .filter .jumpWindow.phoneWindow form .content input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .filter .jumpWindow.phoneWindow form .content input::-webkit-input-placeholder {
   color: #848484;
@@ -2185,7 +2184,7 @@ html body .filter .jumpWindow.betWindow form .row input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .filter .jumpWindow.betWindow form .row input::-webkit-input-placeholder {
   color: #848484;
@@ -2764,7 +2763,7 @@ html body .gameWrap .slotCenter .slotBody .nav .search input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
   padding-left: 30px;
 }
 html body .gameWrap .slotCenter .slotBody .nav .search input::-webkit-input-placeholder {
@@ -3442,7 +3441,8 @@ html body .innerPage .center .memberWrap .top {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border-radius: 25px 25px 0 0;
+  border: 1px solid #dd9d28;
   margin-bottom: 20px;
 }
 html body .innerPage .center .memberWrap .top h1 {
@@ -3460,7 +3460,7 @@ html body .innerPage .center .memberWrap .top h1 {
   font-size: 20px;
   letter-spacing: 2px;
   color: #956817;
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 1px #dd9d28;
   font-weight: bold;
 }
 html body .innerPage .center .memberWrap .top .content {
@@ -3532,7 +3532,7 @@ html body .innerPage .center .memberWrap .bottom .tabs li {
   height: 35px;
   margin-right: 7px;
   background: #999999;
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3562,7 +3562,7 @@ html body .innerPage .center .memberWrap .bottom .dataWrap {
   background: #ffffff;
   -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap.display {
   display: block;
@@ -3616,7 +3616,7 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable l
   padding: 0;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li .remind.np span {
-  color: #c69c6d;
+  color: #181dd5;
   padding-left: 5px;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li button {
@@ -3685,6 +3685,15 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable l
   color: #333333;
   font-weight: bold;
 }
+html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.right ul li p.bet {
+  color: #1c42bd;
+}
+html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.right ul li p.lose {
+  color: #e11515;
+}
+html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.right ul li p.win {
+  color: #158b18;
+}
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.right ul li .copy {
   width: auto;
   height: 30px;
@@ -3713,7 +3722,7 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable l
   margin-right: 26px;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #956817;
+  color: #333333;
   font-weight: bold;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li input {
@@ -3727,7 +3736,7 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable l
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li input::-webkit-input-placeholder {
   color: #848484;
@@ -3764,7 +3773,7 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li
   margin-right: 26px;
   font-size: 14px;
   letter-spacing: 1px;
-  color: #956817;
+  color: #333333;
   font-weight: bold;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li input {
@@ -3778,7 +3787,7 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li input::-webkit-input-placeholder {
   color: #848484;
@@ -3823,7 +3832,7 @@ html body .innerPage .center .memberWrap .bottom .platformWrap {
   background: #ffffff;
   -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px 24px;
@@ -3902,7 +3911,7 @@ html body .innerPage .center .vipWrap {
   width: 1140px;
   height: auto;
   background: #ffffff;
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
 }
@@ -4477,7 +4486,6 @@ html body .innerPage .center .walletWrap .walletMiddle .bottom {
   width: 100%;
   height: auto;
   background: #ffffff;
-  border-radius: 5px;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   position: relative;
@@ -4497,7 +4505,7 @@ html body .innerPage .center .walletWrap .walletMiddle .bottom .tabs li {
   height: 35px;
   margin-right: 7px;
   background: #999999;
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4569,7 +4577,7 @@ html body .innerPage .center .walletWrap .walletMiddle .bottom .platformWallet u
 }
 html body .innerPage .center .walletWrap .walletMiddle .bottom .platformWallet ul li p {
   font-size: 25px;
-  color: #1c42bd;
+  color: #956817;
   font-weight: bold;
 }
 html body .innerPage .center .cardWrap {
@@ -4587,7 +4595,8 @@ html body .innerPage .center .cardWrap .cardMiddle .top {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border-radius: 25px 25px 0 0;
+  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .cardWrap .cardMiddle .top .header {
   width: 100%;
@@ -4595,7 +4604,7 @@ html body .innerPage .center .cardWrap .cardMiddle .top .header {
   padding: 10px 0 15px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 1px #dd9d28;
 }
 html body .innerPage .center .cardWrap .cardMiddle .top .header span {
   font-size: 20px;
@@ -4624,7 +4633,7 @@ html body .innerPage .center .cardWrap .cardMiddle .top .content .title span {
   font-size: 17px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #956817;
+  color: #666666;
 }
 html body .innerPage .center .cardWrap .cardMiddle .top .content .title span:nth-of-type(2) {
   font-size: 15px;
@@ -4743,7 +4752,7 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 15px 20px 35px;
@@ -4829,7 +4838,7 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .form
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox input::-webkit-input-placeholder {
   color: #848484;
@@ -5167,7 +5176,8 @@ html body .innerPage .center .mailWrap.innerMode .msg {
 html body .innerPage .center .mailWrap .top {
   width: 100%;
   height: auto;
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   background: #ffffff;
@@ -5187,7 +5197,7 @@ html body .innerPage .center .mailWrap .top p {
   font-size: 20px;
   font-weight: bold;
   color: #956817;
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 1px #dd9d28;
 }
 html body .innerPage .center .mailWrap .top div {
   width: 100%;
@@ -5250,7 +5260,7 @@ html body .innerPage .center .mailWrap .bottom .tabs li {
   height: 35px;
   margin-right: 7px;
   background: #999999;
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5279,7 +5289,7 @@ html body .innerPage .center .mailWrap .bottom .list {
           box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
   width: 100%;
   min-height: 638px;
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .mailWrap .bottom .list .btnBox {
   display: none;
@@ -5529,7 +5539,8 @@ html body .innerPage .center .eventWrap .title {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
   margin-bottom: 20px;
 }
 html body .innerPage .center .eventWrap .title h1 {
@@ -5564,7 +5575,7 @@ html body .innerPage .center .eventWrap .eventMiddle .tabs li {
   height: 35px;
   margin-right: 7px;
   background: #999999;
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5597,6 +5608,7 @@ html body .innerPage .center .eventWrap .eventMiddle .eventBox, html body .inner
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox.display, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl.display {
   display: -webkit-box;
@@ -5746,7 +5758,7 @@ html body .innerPage .center .eventWrap .eventMiddle .eventRecord {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventRecord.display {
   display: block;
@@ -5847,7 +5859,7 @@ html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .s
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .search form .bigBox .inputBox .row .fakeInput input::-webkit-input-placeholder {
   color: #848484;
@@ -5991,7 +6003,8 @@ html body .innerPage .center .dealWrap .top {
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px;
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
 }
 html body .innerPage .center .dealWrap .bottom {
   width: 100%;
@@ -6017,7 +6030,7 @@ html body .innerPage .center .dealWrap .bottom .header .tabs li {
   height: 35px;
   margin-right: 7px;
   background: #999999;
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6046,7 +6059,7 @@ html body .innerPage .center .dealWrap .bottom .dealBox {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   display: none;
 }
 html body .innerPage .center .dealWrap .bottom .dealBox.display {
@@ -6140,7 +6153,7 @@ html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form .bigBox .innerBox .row .inputBox input::-webkit-input-placeholder {
   color: #848484;
@@ -6278,7 +6291,7 @@ html body .innerPage .center .dealWrap .bottom .waterBox {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px;
@@ -6375,7 +6388,7 @@ html body .innerPage .center .betWrap {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .betWrap form {
   width: 100%;
@@ -6480,7 +6493,7 @@ html body .innerPage .center .betWrap form .timeGroup .timeBox input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .betWrap form .timeGroup .timeBox input::-webkit-input-placeholder {
   color: #848484;
@@ -6717,9 +6730,10 @@ html body .innerPage .center .depositWrap .depositMiddle .top {
   height: 108px;
   margin-bottom: 15px;
   background: #ffffff;
+  border: 1px solid #dd9d28;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border-radius: 25px 25px 0 0;
 }
 html body .innerPage .center .depositWrap .depositMiddle .top .title {
   display: -webkit-box;
@@ -6736,7 +6750,7 @@ html body .innerPage .center .depositWrap .depositMiddle .top .title {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 18px 0 22px;
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 1px #dd9d28;
   font-size: 20px;
   letter-spacing: 2px;
   color: #956817;
@@ -6838,7 +6852,7 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -6874,7 +6888,7 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content form .
   margin-bottom: 30px;
   font-weight: bold;
   font-size: 16px;
-  color: #956817;
+  color: #333333;
   position: relative;
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content form .row.noTitle {
@@ -6920,7 +6934,7 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content form .
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content form .row input::-webkit-input-placeholder {
   color: #848484;
@@ -7093,7 +7107,7 @@ html body .innerPage .center .transferWrap .transferMiddle {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .transferWrap .transferMiddle .title {
   width: 100%;
@@ -7242,7 +7256,7 @@ html body .innerPage .center .transferWrap .transferMiddle .platform ul li .name
 html body .innerPage .center .transferWrap .transferMiddle .platform ul li .amount {
   font-size: 25px;
   font-weight: bold;
-  color: #1c42bd;
+  color: #956817;
   margin-top: 8px;
 }
 html body .innerPage .center .transferWrap .transferMiddle .platform .open {
@@ -7383,7 +7397,7 @@ html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .input
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::-webkit-input-placeholder {
   color: #848484;
@@ -7464,7 +7478,8 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border-radius: 25px 25px 0 0;
+  border: 1px solid #dd9d28;
   width: 100%;
   height: auto;
   margin-bottom: 20px;
@@ -7481,6 +7496,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .title {
   padding: 0 22px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border-bottom: 1px solid #dd9d28;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .title div {
   font-weight: bold;
@@ -7506,6 +7522,9 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .
   padding: 18px 25px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox.detailBox {
+  border-radius: 25px 25px 0 0;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p {
   display: -webkit-box;
@@ -7649,7 +7668,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   width: 100%;
   min-height: 630px;
   -webkit-box-sizing: border-box;
@@ -7715,7 +7734,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row p {
   font-size: 14px;
   letter-spacing: 1px;
-  color: #956817;
+  color: #333333;
   font-weight: bold;
   margin-top: 13px;
 }
@@ -7758,7 +7777,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row div input::-webkit-input-placeholder {
   color: #848484;
@@ -7830,13 +7849,16 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBo
   letter-spacing: 1px;
   font-weight: bold;
 }
+html body .innerPage .center .withdrawalWrap .rightSide .detailBox {
+  border-radius: 25px 25px 0 0;
+}
 html body .innerPage .center .inviteWrap {
   width: 1140px;
   height: auto;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px;
@@ -7894,7 +7916,7 @@ html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input 
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input::-webkit-input-placeholder {
   color: #848484;
@@ -7971,7 +7993,7 @@ html body .innerPage .center .pointWrap {
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border-radius: 5px;
+  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -8029,7 +8051,7 @@ html body .innerPage .center .pointWrap .searchBox .left .inputBox input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
   margin-left: 20px;
 }
 html body .innerPage .center .pointWrap .searchBox .left .inputBox input::-webkit-input-placeholder {
@@ -8311,7 +8333,7 @@ html body .helpPage .center .helpWrap div p.haveBtn button {
   margin-left: 20px;
 }
 html body .helpPage .center .helpWrap div a {
-  color: #c69c6d;
+  color: #181dd5;
   text-decoration: none;
 }
 html body .helpPage .center .helpWrap div button {
@@ -8456,7 +8478,7 @@ html body .registerWrap .bigBox .right label input {
   border-radius: 3px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 html body .registerWrap .bigBox .right label input::-webkit-input-placeholder {
   color: #848484;
@@ -8543,7 +8565,7 @@ html body .registerWrap .bigBox .right .checkBox p {
   color: #956817;
 }
 html body .registerWrap .bigBox .right .checkBox p span {
-  color: #c69c6d;
+  color: #181dd5;
 }
 html body .registerWrap .bigBox .right .checkBtn {
   width: 332px;

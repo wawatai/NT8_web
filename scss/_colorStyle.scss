@@ -37,7 +37,7 @@ $title_Time: #999999;
 $money: #1c42bd;
 
 //連結色
-$link: #c69c6d;
+$link: #181dd5;
 
 //背景半透明黑
 $filter: #0000009e;
@@ -609,7 +609,7 @@ $pageNext_text: #1a42bc;
 //innerPage頁籤按鈕
 @mixin grayBtn {
   background: #999999;
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px 15px 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -661,7 +661,7 @@ button:disabled {
   font-weight: bold;
   border-radius: 3px;
   box-sizing: border-box;
-  padding-left: 20px;
+  padding: 0 20px;
 
   &::placeholder {
     color: #848484;
