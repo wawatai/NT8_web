@@ -37,10 +37,16 @@ header .transferInfo .money i {
 }
 
 //側邊 sideBar img
-.sideBar .download i{
+.sideBar .download i {
     background: url('../images/icon/download.png') no-repeat;
     background-size: 100%;
 }
+
+.sideBar .cs i {
+    background: url('../images/icon/lineIC.png') no-repeat;
+    background-size: 100%;
+}
+
 .goTOP i {
     background: url('../images/icon/gotopIC.png') no-repeat;
     background-size: 100%;
@@ -51,9 +57,9 @@ header .transferInfo .money i {
     background: url('../images/icon/mqIC.png') no-repeat;
     background-size: 100%;
 }
-.ad .slick-arrow.slick-prev::after,
-.ad .slick-arrow.slick-next::after {
-    background: url(../images/icon/adArrow.png) no-repeat;
+.ad .slick-arrow.slick-prev,
+.ad .slick-arrow.slick-next {
+    background: url('../images/icon/adArrow.png') no-repeat;
     background-size: contain;
 }
 

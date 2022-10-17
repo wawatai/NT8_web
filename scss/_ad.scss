@@ -4,6 +4,52 @@
 
     .single-item {
         margin: 0;
+        padding: 0;
+
+        .slick-arrow {
+            width: auto;
+            height: auto;
+            position: relative;
+
+            &.slick-prev {
+                width: 15px;
+                height: 18px;
+                position: absolute;
+                top: 452px;
+                left: 848px;
+                
+                &::before {
+                    content: "";
+                    width: 36px;
+                    height: 36px;
+                    background: $adBTN;
+                    border-radius: 50px;
+                    position: absolute;
+                    top: -8px;
+                    left: -8px;
+                }
+            }
+
+            &.slick-next {
+                width: 15px;
+                height: 18px;
+                transform: rotate(180deg);
+                position: absolute;
+                top: 452px;
+                right: 848px;
+
+                &::before {
+                    content: "";
+                    width: 36px;
+                    height: 36px;
+                    background: $adBTN;
+                    border-radius: 50px;
+                    position: absolute;
+                    top: -8px;
+                    left: -8px;
+                }
+            }
+        }
 
         .slick-slide {
             outline: none;
@@ -32,42 +78,8 @@
                         margin: 0;
                     }
                 }
-
-                &.slick-prev {
-                    width: 36px;
-                    height: 36px;
-                    background: #000000;
-                    position: absolute;
-                    right: 45%;
-                    top: 466px;
-                }
-            
-                &.slick-next {
-                    right: 45%;
-                    top: 466px;
-                }   
+  
             }
         }
-
-        // button {
-        //     z-index: 1;
-        //     // width: 36px;
-        //     // height: 36px;
-        //     // background: #000000;
-
-        //     &.slick-prev {
-        //         left: 45%;
-        //         top: 466px;
-        //     }
-
-        //     &.slick-next {
-        //         right: 45%;
-        //         top: 466px;
-                
-        //         &::before {
-        //             transform: translate(-50%,-50%) rotate(45deg) scaleX(-1);
-        //         }
-        //     }
-        // }
     }
 }

@@ -60,6 +60,7 @@
             background: $sideBar_BG2;
             box-shadow: 0 0 7px 0 $mainShadow_1;
             cursor: pointer;
+            
 
             i {
                 width: 30px;
@@ -70,6 +71,21 @@
                 background: $sideBar_BG2_HOV;
                 border: 1px solid $choose_Border;
                 box-shadow: 0 4px 8px 0 $mainShadow_1;
+            }
+
+            &.cs {
+                display: fixed;
+                background: $sideBar_BG3;
+                border: solid 2px $sideBar_Border1;
+                position: absolute;
+                top: -1285px;
+                cursor: pointer;
+
+                i {
+                    width: 47px;
+                    height: 44px;
+                    margin-top: 3px;
+                }
             }
         }
     }

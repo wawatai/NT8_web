@@ -65,6 +65,11 @@ header .transferInfo .money i {
   background-size: 100%;
 }
 
+.sideBar .cs i {
+  background: url("../images/icon/lineIC.png") no-repeat;
+  background-size: 100%;
+}
+
 .goTOP i {
   background: url("../images/icon/gotopIC.png") no-repeat;
   background-size: 100%;
@@ -75,9 +80,9 @@ header .transferInfo .money i {
   background-size: 100%;
 }
 
-.ad .slick-arrow.slick-prev::after,
-.ad .slick-arrow.slick-next::after {
-  background: url(../images/icon/adArrow.png) no-repeat;
+.ad .slick-arrow.slick-prev,
+.ad .slick-arrow.slick-next {
+  background: url("../images/icon/adArrow.png") no-repeat;
   background-size: contain;
 }
 
@@ -1158,6 +1163,48 @@ html body .ad {
 }
 html body .ad .single-item {
   margin: 0;
+  padding: 0;
+}
+html body .ad .single-item .slick-arrow {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+html body .ad .single-item .slick-arrow.slick-prev {
+  width: 15px;
+  height: 18px;
+  position: absolute;
+  top: 452px;
+  left: 848px;
+}
+html body .ad .single-item .slick-arrow.slick-prev::before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.5058823529);
+  border-radius: 50px;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+}
+html body .ad .single-item .slick-arrow.slick-next {
+  width: 15px;
+  height: 18px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  position: absolute;
+  top: 452px;
+  right: 848px;
+}
+html body .ad .single-item .slick-arrow.slick-next::before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.5058823529);
+  border-radius: 50px;
+  position: absolute;
+  top: -8px;
+  left: -8px;
 }
 html body .ad .single-item .slick-slide {
   outline: none;
@@ -1184,18 +1231,6 @@ html body .ad .single-item .slick-dots button::before {
 }
 html body .ad .single-item .slick-dots button::before:last-child {
   margin: 0;
-}
-html body .ad .single-item .slick-dots button.slick-prev {
-  width: 36px;
-  height: 36px;
-  background: #000000;
-  position: absolute;
-  right: 45%;
-  top: 466px;
-}
-html body .ad .single-item .slick-dots button.slick-next {
-  right: 45%;
-  top: 466px;
 }
 html body .sideBar .download {
   position: fixed;
@@ -1288,6 +1323,19 @@ html body .sideBar .rightSide li:hover, html body .sideBar .rightSide li:active,
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
+html body .sideBar .rightSide li.cs {
+  display: fixed;
+  background: linear-gradient(120deg, #f8cf56 24%, #df9e28 46%, #ffd967 69%);
+  border: solid 2px #fffcd5;
+  position: absolute;
+  top: -1285px;
+  cursor: pointer;
+}
+html body .sideBar .rightSide li.cs i {
+  width: 47px;
+  height: 44px;
+  margin-top: 3px;
+}
 html body .mainWrap {
   width: 100%;
   height: auto;
@@ -1328,6 +1376,8 @@ html body .mainWrap .center .marqueeArea .center .marqueeWrap .marquee_ic {
   border-radius: 25px;
   background: -webkit-gradient(linear, left bottom, left top, from(#b68222), to(#df9e28));
   background: linear-gradient(to top, #b68222 0%, #df9e28 100%);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1500,6 +1550,8 @@ html body footer .top .center .btnBox ul li:hover, html body footer .top .center
   background: #aa7217;
   border-radius: 0 0 30px 30px;
   color: #ffffff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
 }
 html body footer .top .center p {
   font-size: 14px;
@@ -2466,6 +2518,7 @@ html body .gameWrap .marqueeArea .center .marqueeWrap {
       -ms-flex-align: center;
           align-items: center;
   background: #ffffff;
+  border: 1px solid #dd9d28;
   -webkit-box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.1215686275);
           box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.1215686275);
   border-radius: 25px;
@@ -2476,6 +2529,8 @@ html body .gameWrap .marqueeArea .center .marqueeWrap .marquee_ic {
   border-radius: 25px;
   background: -webkit-gradient(linear, left bottom, left top, from(#b68222), to(#df9e28));
   background: linear-gradient(to top, #b68222 0%, #df9e28 100%);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3059,6 +3114,8 @@ html body .innerPage .marqueeArea .center .marqueeWrap .marquee_ic {
   border-radius: 25px;
   background: -webkit-gradient(linear, left bottom, left top, from(#b68222), to(#df9e28));
   background: linear-gradient(to top, #b68222 0%, #df9e28 100%);
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

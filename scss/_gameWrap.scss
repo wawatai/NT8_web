@@ -17,6 +17,7 @@
                 display: flex;
                 align-items: center;
                 background: $marquee_BG;
+                border: 1px solid $marquee_Border;
                 box-shadow: 0 0 13px 3px $marquee_Shadow;
                 border-radius: 25px;
 
@@ -25,6 +26,7 @@
                     height: 102%;
                     border-radius: 25px;
                     background: $marquee_Linear;
+                    box-shadow: 2px 2px 5px $mainShadow_1;
                     display: flex;
                     align-items: center;
                     justify-content: center;
