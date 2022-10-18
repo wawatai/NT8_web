@@ -129,7 +129,7 @@ footer .top li.active {
 }
 
 .eventTitle {
-  background: url("../images/eventTitle_bg.png") no-repeat;
+  background: url("../images/eventCenter_banner.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -462,7 +462,7 @@ header .logo {
 
 .mainWrap .typeList img {
   width: 338px;
-  height: 270px;
+  height: 250px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -1125,7 +1125,7 @@ html body header .topGameList .listWrap .center .container ul li .fixBox {
   display: none;
   position: absolute;
   width: 92%;
-  height: 92%;
+  height: 80%;
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.6196078431);
   -webkit-box-align: center;
@@ -1138,7 +1138,7 @@ html body header .topGameList .listWrap .center .container ul li .fixBox {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  top: 50%;
+  top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1361,7 +1361,7 @@ html body .mainWrap .center .marqueeArea {
           box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.1215686275);
   border: 1px solid #dd9d28;
   border-radius: 25px;
-  margin: 28px 0 30px;
+  margin: 28px 0 22px;
 }
 html body .mainWrap .center .marqueeArea .center {
   width: 100%;
@@ -1406,7 +1406,7 @@ html body .mainWrap .center .marqueeArea .center .marqueeWrap .marquee {
   overflow: hidden;
 }
 html body .mainWrap .center .marqueeArea .center .marqueeWrap .marquee p {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
   color: #494b55;
   display: inline-block;
@@ -1462,7 +1462,7 @@ html body .mainWrap .center .typeList li p {
   color: #77400b;
   width: 100%;
   text-align: center;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
 }
 html body .mainWrap .center .typeList li .fixBox {
@@ -1482,7 +1482,7 @@ html body .mainWrap .center .typeList li .fixBox {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  top: 49%;
+  top: 46%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -1540,7 +1540,7 @@ html body footer .top .center .btnBox ul {
 }
 html body footer .top .center .btnBox ul li {
   width: 95px;
-  height: 100%;
+  height: 90%;
   margin-right: 8px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1551,6 +1551,7 @@ html body footer .top .center .btnBox ul li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-radius: 0 0 30px 30px;
   cursor: pointer;
   color: #f4f4f4;
   font-weight: bold;
@@ -1997,22 +1998,20 @@ html body .filter .jumpWindow.phoneWindow form .btnBox {
 html body .filter .jumpWindow.phoneWindow form .btnBox button {
   width: 322px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 html body .filter .jumpWindow.phoneWindow form .btnBox button:hover, html body .filter .jumpWindow.phoneWindow form .btnBox button:active, html body .filter .jumpWindow.phoneWindow form .btnBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .filter .jumpWindow.phoneWindow form .btnBox .remind {
   text-align: center;
@@ -2089,7 +2088,7 @@ html body .filter .jumpWindow.checkEvent .content {
 }
 html body .filter .jumpWindow.checkEvent .content .imgBox {
   width: 100%;
-  height: 500px;
+  height: 318px;
   overflow-x: auto;
 }
 html body .filter .jumpWindow.checkEvent .content p {
@@ -2103,7 +2102,7 @@ html body .filter .jumpWindow.checkEvent .content p {
 html body .filter .jumpWindow.checkEvent .btnBox {
   width: 100%;
   height: auto;
-  padding: 18px 0;
+  padding: 18px 0 28px;
   text-align: center;
 }
 html body .filter .jumpWindow.checkEvent .btnBox button {
@@ -2559,18 +2558,13 @@ html body .gameWrap .marqueeArea .center .marqueeWrap .marquee_ic i {
   width: 30px;
   height: 30px;
 }
-html body .gameWrap .marqueeArea .center .marqueeWrap .marquee_ic p {
-  font-size: 16px;
-  font-weight: bold;
-  color: #ffffff;
-}
 html body .gameWrap .marqueeArea .center .marqueeWrap .marquee {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 html body .gameWrap .marqueeArea .center .marqueeWrap .marquee p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #494b55;
   display: inline-block;
@@ -3144,7 +3138,7 @@ html body .innerPage {
 html body .innerPage .marqueeArea {
   width: 100%;
   height: 50px;
-  margin-bottom: 41px;
+  margin-bottom: 39px;
 }
 html body .innerPage .marqueeArea .center {
   width: 1400px;
@@ -3201,7 +3195,7 @@ html body .innerPage .marqueeArea .center .marqueeWrap .marquee {
   overflow: hidden;
 }
 html body .innerPage .marqueeArea .center .marqueeWrap .marquee p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #494b55;
   display: inline-block;
@@ -3453,7 +3447,7 @@ html body .innerPage .center .memberWrap .top {
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   border-radius: 25px 25px 0 0;
   border: 1px solid #dd9d28;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 html body .innerPage .center .memberWrap .top h1 {
   display: -webkit-box;
@@ -3836,6 +3830,7 @@ html body .innerPage .center .memberWrap .bottom .platformWrap {
   display: none;
   width: 100%;
   height: auto;
+  min-height: 503px;
   background: #ffffff;
   -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
@@ -3886,7 +3881,6 @@ html body .innerPage .center .memberWrap .bottom .platformWrap table tr th:last-
   border: none;
 }
 html body .innerPage .center .memberWrap .bottom .platformWrap table tr th p {
-  border-right: solid 1px #cccccc;
   font-size: 14px;
   font-weight: bold;
   color: #77400b;
@@ -3894,7 +3888,7 @@ html body .innerPage .center .memberWrap .bottom .platformWrap table tr th p {
 html body .innerPage .center .memberWrap .bottom .platformWrap table tr td {
   border-bottom: solid 1px #cccccc;
   vertical-align: middle;
-  height: 50px;
+  height: 40px;
 }
 html body .innerPage .center .memberWrap .bottom .platformWrap table tr td:last-child p {
   border: none;
@@ -3925,13 +3919,13 @@ html body .innerPage .center .vipWrap .top {
   color: #956817;
   font-size: 20px;
   font-weight: bold;
-  padding: 22px;
+  padding: 18px 22px;
   background: #ffffff;
   border: 1px solid #dd9d28;
   border-radius: 25px 25px 0 0;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  margin-bottom: 22px;
+  margin-bottom: 15px;
 }
 html body .innerPage .center .vipWrap .bottom {
   background: #ffffff;
@@ -4166,19 +4160,17 @@ html body .innerPage .center .vipWrap.innerMode .detailTitle {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 0 20px;
-  margin-bottom: 13px;
+  color: #956817;
   font-size: 17px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #956817;
   background: #ffffff;
   border: 1px solid #dd9d28;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   border-radius: 25px 25px 0 0;
   padding: 15px 22px;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
 }
 html body .innerPage .center .vipWrap.innerMode .detailTitle .back {
   display: block;
@@ -4307,7 +4299,7 @@ html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 50px;
+  height: 40px;
   border-bottom: solid 1px #cccccc;
 }
 html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li.header {
@@ -4319,7 +4311,7 @@ html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li.header div
 html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li div {
   width: 100%;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #333333;
   border-right: solid 1px #cccccc;
@@ -4366,7 +4358,7 @@ html body .innerPage .center .walletWrap .walletMiddle {
 html body .innerPage .center .walletWrap .walletMiddle .top {
   width: 100%;
   height: auto;
-  margin-bottom: 56px;
+  margin-bottom: 48px;
   background: #ffffff;
   -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.4);
@@ -5567,7 +5559,7 @@ html body .innerPage .center .eventWrap .title {
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   border: 1px solid #dd9d28;
   border-radius: 25px 25px 0 0;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 html body .innerPage .center .eventWrap .title h1 {
   width: 100%;
@@ -5627,7 +5619,7 @@ html body .innerPage .center .eventWrap .eventMiddle .tabs li:hover, html body .
 html body .innerPage .center .eventWrap .eventMiddle .eventBox, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl {
   display: none;
   width: 100%;
-  min-height: 430px;
+  min-height: 569px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 18px 22px;
@@ -5647,7 +5639,7 @@ html body .innerPage .center .eventWrap .eventMiddle .eventBox ul, html body .in
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li {
   width: 100%;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
   border-radius: 3px;
   border: solid 1px #c29f64;
 }
@@ -5694,6 +5686,9 @@ html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div p.day-tips, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div p.day-tips {
   color: #999999;
+}
+html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div p.day-tips em, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div p.day-tips em {
+  margin-right: 5px;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div p span, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div p span {
   color: #333333;
@@ -5787,7 +5782,7 @@ html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .content ul
 html body .innerPage .center .eventWrap .eventMiddle .eventRecord {
   display: none;
   width: 100%;
-  min-height: 430px;
+  min-height: 569px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #ffffff;
@@ -5978,24 +5973,31 @@ html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .t
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .tableWrap table {
   width: 100%;
+  margin-top: 25px;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .tableWrap table tr th {
-  height: 50px;
+  height: 40px;
   vertical-align: middle;
   letter-spacing: 1px;
   color: #77400b;
   border-bottom: solid 2px #c29f64;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .tableWrap table tr td {
-  height: 50px;
+  height: 40px;
   vertical-align: middle;
-  font-size: 13px;
+  font-size: 14px;
   color: #333333;
   font-weight: bold;
   text-align: center;
   border-bottom: solid 1px #cccccc;
+}
+html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .tableWrap table tr td p {
+  border-right: 1px solid #cccccc;
+}
+html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .tableWrap table tr td:last-child p {
+  border: 0;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventRecord .recordWrap .tableWrap .noData {
   display: none;
@@ -6044,7 +6046,7 @@ html body .innerPage .center .dealWrap .top {
 html body .innerPage .center .dealWrap .bottom {
   width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 html body .innerPage .center .dealWrap .bottom .header {
   width: 100%;
@@ -6089,7 +6091,6 @@ html body .innerPage .center .dealWrap .bottom .header .tabs li:hover, html body
   background: linear-gradient(0deg, #df9e28 0%, #b68222 46%, #f5bc32 100%);
 }
 html body .innerPage .center .dealWrap .bottom .dealBox {
-  width: 100%;
   height: auto;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
@@ -6103,6 +6104,7 @@ html body .innerPage .center .dealWrap .bottom .dealBox.display {
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap {
   width: 100%;
   height: auto;
+  min-height: 569px;
 }
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search {
   width: 100%;
@@ -6288,11 +6290,14 @@ html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable t
   height: auto;
   margin: 20px 0 60px;
 }
+html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr {
+  border-bottom: 1px solid #cccccc;
+}
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr th, html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr td {
-  height: 50px;
+  height: 40px;
   vertical-align: middle;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
   color: #77400b;
@@ -6302,7 +6307,12 @@ html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable t
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr th:last-child::before, html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr td:last-child::before {
   display: none;
 }
-html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr th::before, html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr td::before {
+html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr td {
+  width: 25%;
+  border-bottom: none;
+  color: #333333;
+}
+html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr td::before {
   content: "";
   position: absolute;
   width: 1px;
@@ -6313,14 +6323,10 @@ html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable t
   right: 0px;
   background: #cccccc;
 }
-html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable table tr td {
-  width: 25%;
-  border-bottom: none;
-  color: #333333;
-}
 html body .innerPage .center .dealWrap .bottom .waterBox {
   width: 100%;
   height: auto;
+  min-height: 569px;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
@@ -6341,6 +6347,7 @@ html body .innerPage .center .dealWrap .bottom .waterBox h1 {
 html body .innerPage .center .dealWrap .bottom .waterBox table {
   width: 100%;
   height: auto;
+  margin-top: 25px;
 }
 html body .innerPage .center .dealWrap .bottom .waterBox table tr th {
   border-bottom: solid 2px #c29f64;
@@ -6355,7 +6362,6 @@ html body .innerPage .center .dealWrap .bottom .waterBox table tr th p {
   padding: 0 5px;
   font-size: 14px;
   font-weight: bold;
-  border-right: solid 1px #cccccc;
 }
 html body .innerPage .center .dealWrap .bottom .waterBox table tr td {
   border-bottom: solid 1px #cccccc;
@@ -6367,9 +6373,10 @@ html body .innerPage .center .dealWrap .bottom .waterBox table tr td p {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
+  border-right: solid 1px #cccccc;
 }
 html body .innerPage .center .dealWrap .bottom .waterBox table tr td p.money {
-  color: #008599;
+  color: #181dd5;
 }
 html body .innerPage .center .dealWrap .bottom .waterBox table tr td p.sp {
   color: #158b18;
@@ -6414,12 +6421,15 @@ html body .innerPage .center .dealWrap .bottom .waterBox table tr td p i {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
+html body .innerPage .center .dealWrap .bottom .waterBox table tr td:last-child p {
+  border-right: 0;
+}
 html body .innerPage .center .betWrap {
   width: 1140px;
   height: auto;
 }
 html body .innerPage .center .betWrap .top {
-  margin-bottom: 22px;
+  margin-bottom: 15px;
   font-size: 20px;
   letter-spacing: 2px;
   color: #956817;
@@ -6432,7 +6442,9 @@ html body .innerPage .center .betWrap .top {
   padding: 15px 22px;
 }
 html body .innerPage .center .betWrap .bottom {
-  padding-top: 22px;
+  height: auto;
+  min-height: 561px;
+  padding: 22px 0;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
@@ -6591,19 +6603,39 @@ html body .innerPage .center .betWrap .bottom form .timeGroup .checkBtn:hover, h
 html body .innerPage .center .betWrap .bottom .fakeTable {
   width: 100%;
   height: auto;
-  margin: 15px 0 30px;
+  margin: 6px 0 30px;
 }
 html body .innerPage .center .betWrap .bottom .fakeTable ul {
   width: 100%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 html body .innerPage .center .betWrap .bottom .fakeTable ul li {
-  width: 100%;
+  width: 95%;
   height: 40px;
   border-bottom: solid 1px #cccccc;
+  position: relative;
 }
-html body .innerPage .center .betWrap .bottom .fakeTable ul li.title {
-  border-bottom: solid 1px #c29f64;
+html body .innerPage .center .betWrap .bottom .fakeTable ul li:first-child {
+  border-bottom: 0;
+}
+html body .innerPage .center .betWrap .bottom .fakeTable ul li:first-child::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #c29f64;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 html body .innerPage .center .betWrap .bottom .fakeTable ul li.title p {
   color: #77400b !important;
@@ -6764,7 +6796,6 @@ html body .innerPage .center .depositWrap .depositMiddle {
   margin-right: 15px;
 }
 html body .innerPage .center .depositWrap .depositMiddle .top {
-  width: 100%;
   height: 108px;
   margin-bottom: 15px;
   background: #ffffff;
@@ -6886,7 +6917,7 @@ html body .innerPage .center .depositWrap .depositMiddle .top .list .box ul li i
 html body .innerPage .center .depositWrap .depositMiddle .bottom {
   width: 100%;
   height: 555px;
-  padding: 16px 0 0 27px;
+  padding: 20px 24px;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
@@ -6901,6 +6932,10 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .cardDeposit {
 html body .innerPage .center .depositWrap .depositMiddle .bottom .card.display, html body .innerPage .center .depositWrap .depositMiddle .bottom .atm.display, html body .innerPage .center .depositWrap .depositMiddle .bottom .shop.display,
 html body .innerPage .center .depositWrap .depositMiddle .bottom .cardDeposit.display {
   display: block;
+}
+html body .innerPage .center .depositWrap .depositMiddle .bottom .card:first-child .remindBox, html body .innerPage .center .depositWrap .depositMiddle .bottom .atm:first-child .remindBox, html body .innerPage .center .depositWrap .depositMiddle .bottom .shop:first-child .remindBox,
+html body .innerPage .center .depositWrap .depositMiddle .bottom .cardDeposit:first-child .remindBox {
+  margin-top: 125px;
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .title {
   font-size: 17px;
@@ -7017,10 +7052,10 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content form b
           box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content .remindBox {
-  width: 839px;
+  width: 100%;
   height: auto;
   padding: 15px 19px;
-  margin: 39px 0 0 -10px;
+  margin: 54px 0 0 0;
   border: solid 1px #c29f64;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -7161,7 +7196,7 @@ html body .innerPage .center .transferWrap .transferMiddle .title {
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   border: 1px solid #dd9d28;
   border-radius: 25px 25px 0 0;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
 }
 html body .innerPage .center .transferWrap .transferMiddle .title div {
   color: #956817;
@@ -7350,7 +7385,7 @@ html body .innerPage .center .transferWrap .transferMiddle .bottom form {
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 25px 0 36px 27px;
+  padding: 25px 23px 36px 23px;
 }
 html body .innerPage .center .transferWrap .transferMiddle .bottom form .formTitle {
   display: -webkit-box;
@@ -7530,14 +7565,13 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle {
   margin-right: 15px;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top {
+  height: auto;
+  margin-bottom: 15px;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   border-radius: 25px 25px 0 0;
   border: 1px solid #dd9d28;
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .title {
   width: 100%;
@@ -7728,7 +7762,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom {
   min-height: 630px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 20px 0 20px 24px;
+  padding: 20px 24px;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .title {
   font-size: 17px;
@@ -7779,6 +7813,9 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul li .no
   font-size: 15px;
   letter-spacing: 2px;
   color: #666666;
+}
+html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom ul li:last-child {
+  margin-right: 0;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form .row {
   display: -webkit-box;
@@ -7877,11 +7914,11 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom form butt
           box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBox {
-  width: 839px;
+  width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 15px 19px;
-  margin: 24px 0 0 -10px;
+  margin: 42px 0 0 0;
   border: solid 1px #c29f64;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .bottom .remindBox .remindTitle {
@@ -7918,7 +7955,7 @@ html body .innerPage .center .inviteWrap .title {
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: bold;
-  margin-bottom: 22px;
+  margin-bottom: 15px;
   padding: 18px 22px;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
