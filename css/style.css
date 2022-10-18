@@ -27,6 +27,7 @@ input:read-only {
 
 .bg {
   background: url("../images/bg.png") no-repeat top center;
+  background-size: cover;
 }
 
 header {
@@ -1689,6 +1690,7 @@ html body .filter .jumpWindow.forgetPassword form button {
   background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
+  border: 0px;
   border-radius: 30px;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
@@ -1825,6 +1827,7 @@ html body .filter .jumpWindow.plsGo .btnBox button {
   background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
+  border: 0px;
   border-radius: 30px;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
@@ -2106,6 +2109,7 @@ html body .filter .jumpWindow.checkEvent .btnBox button {
   background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
+  border: 0px;
   border-radius: 30px;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
@@ -2393,6 +2397,7 @@ html body .filter .jumpWindow.notExist .btnBox button {
   background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
+  border: 0px;
   border-radius: 30px;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
@@ -2430,6 +2435,7 @@ html body .filter .jumpWindow.idpwRequire .btnBox button {
   background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
+  border: 0px;
   border-radius: 30px;
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
@@ -2450,8 +2456,8 @@ html body .filter .jumpWindow .title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, color-stop(3%, #eaa92c), color-stop(43%, #dda12e), color-stop(89%, #ffd147));
-  background: linear-gradient(to right, #eaa92c 3%, #dda12e 43%, #ffd147 89%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(3%, #eaa92c), color-stop(43%, #dda12e), color-stop(89%, #ffd147), to(#eaa92c));
+  background: linear-gradient(to right, #eaa92c 3%, #dda12e 43%, #ffd147 89%, #eaa92c 100%);
   border-radius: 18px 18px 0 0;
   position: relative;
 }
@@ -3614,6 +3620,7 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable l
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li .remind.np {
   padding: 0;
+  margin-top: 10px;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li .remind.np span {
   color: #181dd5;
@@ -3624,22 +3631,20 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable l
   height: 42px;
   position: relative;
   left: 110px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li button:hover, html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li button:active, html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable li.left form ul li span {
   display: -webkit-inline-box;
@@ -3904,41 +3909,52 @@ html body .innerPage .center .memberWrap .bottom .platformWrap table tr td p.sp 
   color: #158b18;
 }
 html body .innerPage .center .memberWrap .bottom .platformWrap table tr td p.code {
-  color: #008599;
+  color: #181dd5;
 }
 html body .innerPage .center .vipWrap {
   display: none;
   width: 1140px;
   height: auto;
+}
+html body .innerPage .center .vipWrap.display {
+  display: block;
+}
+html body .innerPage .center .vipWrap .top {
+  color: #956817;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 22px;
+  background: #ffffff;
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  margin-bottom: 22px;
+}
+html body .innerPage .center .vipWrap .bottom {
   background: #ffffff;
   border: 1px solid #dd9d28;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
 }
-html body .innerPage .center .vipWrap.display {
-  display: block;
-}
-html body .innerPage .center .vipWrap.innerMode {
-  padding: 24px 0 30px;
-}
-html body .innerPage .center .vipWrap .vipHeader {
+html body .innerPage .center .vipWrap .bottom .vipHeader {
   width: 100%;
   height: auto;
-  padding-left: 40px;
+  padding: 22px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html body .innerPage .center .vipWrap .vipHeader .medal {
+html body .innerPage .center .vipWrap .bottom .vipHeader .medal {
   width: 80px;
   height: 116px;
   margin-right: 30px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
-html body .innerPage .center .vipWrap .vipHeader .rightBox {
+html body .innerPage .center .vipWrap .bottom .vipHeader .rightBox {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3954,28 +3970,28 @@ html body .innerPage .center .vipWrap .vipHeader .rightBox {
       -ms-flex-pack: center;
           justify-content: center;
 }
-html body .innerPage .center .vipWrap .vipHeader .rightBox .lv {
+html body .innerPage .center .vipWrap .bottom .vipHeader .rightBox .lv {
   margin: 6px 0 14px;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
   color: #956817;
 }
-html body .innerPage .center .vipWrap .vipHeader .rightBox .money span {
+html body .innerPage .center .vipWrap .bottom .vipHeader .rightBox .money span {
   font-size: 14px;
   letter-spacing: 1px;
   color: #333333;
   font-weight: bold;
   margin-right: 10px;
 }
-html body .innerPage .center .vipWrap .lvGraph {
+html body .innerPage .center .vipWrap .bottom .lvGraph {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px 20px 0;
 }
-html body .innerPage .center .vipWrap .lvGraph .text {
+html body .innerPage .center .vipWrap .bottom .lvGraph .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3984,44 +4000,44 @@ html body .innerPage .center .vipWrap .lvGraph .text {
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .vipWrap .lvGraph .text li {
+html body .innerPage .center .vipWrap .bottom .lvGraph .text li {
   width: 20%;
   font-size: 14px;
   color: #956817;
 }
-html body .innerPage .center .vipWrap .lvGraph .text li:nth-of-type(2) {
+html body .innerPage .center .vipWrap .bottom .lvGraph .text li:nth-of-type(2) {
   margin-left: -18px;
 }
-html body .innerPage .center .vipWrap .lvGraph .text li:last-child {
+html body .innerPage .center .vipWrap .bottom .lvGraph .text li:last-child {
   text-align: right;
   position: absolute;
   right: 0px;
   top: 0px;
 }
-html body .innerPage .center .vipWrap .lvGraph .bar {
+html body .innerPage .center .vipWrap .bottom .lvGraph .bar {
   width: 100%;
   height: 13px;
   background: #f2f2f2;
   border-radius: 10px;
   overflow: hidden;
 }
-html body .innerPage .center .vipWrap .lvGraph .bar li {
+html body .innerPage .center .vipWrap .bottom .lvGraph .bar li {
   background: -webkit-gradient(linear, left top, right top, from(#f5c83f), to(#a2741f));
   background: linear-gradient(to right, #f5c83f 0%, #a2741f 100%);
   height: 100%;
   border-radius: 10px;
 }
-html body .innerPage .center .vipWrap .lvGraph .bar li {
+html body .innerPage .center .vipWrap .bottom .lvGraph .bar li {
   width: 8%;
 }
-html body .innerPage .center .vipWrap .nextBox {
+html body .innerPage .center .vipWrap .bottom .nextBox {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 22px 20px;
 }
-html body .innerPage .center .vipWrap .nextBox .nextWord {
+html body .innerPage .center .vipWrap .bottom .nextBox .nextWord {
   width: 100%;
   height: auto;
   letter-spacing: 2px;
@@ -4030,7 +4046,7 @@ html body .innerPage .center .vipWrap .nextBox .nextWord {
   color: #956817;
   font-weight: bold;
 }
-html body .innerPage .center .vipWrap .nextBox .nextBar {
+html body .innerPage .center .vipWrap .bottom .nextBox .nextBar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4046,7 +4062,7 @@ html body .innerPage .center .vipWrap .nextBox .nextBar {
   color: #333333;
   font-weight: bold;
 }
-html body .innerPage .center .vipWrap .nextBox .nextBar .bar {
+html body .innerPage .center .vipWrap .bottom .nextBox .nextBar .bar {
   width: 400px;
   height: 8px;
   background: #f2f2f2;
@@ -4054,16 +4070,16 @@ html body .innerPage .center .vipWrap .nextBox .nextBar .bar {
   overflow: hidden;
   margin: 0 10px;
 }
-html body .innerPage .center .vipWrap .nextBox .nextBar .bar li {
+html body .innerPage .center .vipWrap .bottom .nextBox .nextBar .bar li {
   background: -webkit-gradient(linear, left top, right top, from(#f5c83f), to(#a2741f));
   background: linear-gradient(to right, #f5c83f 0%, #a2741f 100%);
   height: 100%;
   border-radius: 10px;
 }
-html body .innerPage .center .vipWrap .nextBox .nextBar .bar li {
+html body .innerPage .center .vipWrap .bottom .nextBox .nextBar .bar li {
   width: 20%;
 }
-html body .innerPage .center .vipWrap .levelEnjoy {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
@@ -4071,7 +4087,7 @@ html body .innerPage .center .vipWrap .levelEnjoy {
   padding: 18px 22px 6px;
   border-top: solid 1px #cccccc;
 }
-html body .innerPage .center .vipWrap .levelEnjoy .title {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy .title {
   width: 100%;
   height: auto;
   margin-bottom: 30px;
@@ -4080,7 +4096,7 @@ html body .innerPage .center .vipWrap .levelEnjoy .title {
   color: #956817;
   font-weight: bold;
 }
-html body .innerPage .center .vipWrap .levelEnjoy ul {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4089,7 +4105,7 @@ html body .innerPage .center .vipWrap .levelEnjoy ul {
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .vipWrap .levelEnjoy ul li {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy ul li {
   width: calc(33.3% - 1px);
   border-right: solid 1px #cccccc;
   display: -webkit-box;
@@ -4108,21 +4124,21 @@ html body .innerPage .center .vipWrap .levelEnjoy ul li {
   height: 70px;
   margin-bottom: 18px;
 }
-html body .innerPage .center .vipWrap .levelEnjoy ul li:nth-of-type(3n) {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy ul li:nth-of-type(3n) {
   border: none;
 }
-html body .innerPage .center .vipWrap .levelEnjoy ul li .text {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy ul li .text {
   margin-bottom: 10px;
   font-size: 15px;
   letter-spacing: 1px;
   color: #333333;
 }
-html body .innerPage .center .vipWrap .levelEnjoy ul li .num {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy ul li .num {
   font-size: 28px;
   color: #77400b;
   font-weight: bold;
 }
-html body .innerPage .center .vipWrap .levelEnjoy .more {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy .more {
   display: block;
   width: 321px;
   height: 41px;
@@ -4134,11 +4150,11 @@ html body .innerPage .center .vipWrap .levelEnjoy .more {
   font-weight: bold;
   border-radius: 3px;
 }
-html body .innerPage .center .vipWrap .levelEnjoy .more:hover, html body .innerPage .center .vipWrap .levelEnjoy .more:active, html body .innerPage .center .vipWrap .levelEnjoy .more.active {
+html body .innerPage .center .vipWrap .bottom .levelEnjoy .more:hover, html body .innerPage .center .vipWrap .bottom .levelEnjoy .more:active, html body .innerPage .center .vipWrap .bottom .levelEnjoy .more.active {
   background: #996c33;
   color: #ffffff;
 }
-html body .innerPage .center .vipWrap .detailTitle {
+html body .innerPage .center .vipWrap.innerMode .detailTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4154,15 +4170,25 @@ html body .innerPage .center .vipWrap .detailTitle {
   font-weight: bold;
   letter-spacing: 2px;
   color: #956817;
+  background: #ffffff;
+  border: 1px solid #dd9d28;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border-radius: 25px 25px 0 0;
+  padding: 15px 22px;
+  margin-bottom: 22px;
 }
-html body .innerPage .center .vipWrap .detailTitle .back {
+html body .innerPage .center .vipWrap.innerMode .detailTitle .back {
   display: block;
   width: 9px;
   height: 18px;
   margin-right: 13px;
   cursor: pointer;
 }
-html body .innerPage .center .vipWrap .detailCardBox {
+html body .innerPage .center .vipWrap.innerMode .bottom {
+  padding: 22px 0;
+}
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4178,25 +4204,25 @@ html body .innerPage .center .vipWrap .detailCardBox {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html body .innerPage .center .vipWrap .detailCardBox i {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox i {
   width: 9px;
   height: 18px;
   cursor: pointer;
 }
-html body .innerPage .center .vipWrap .detailCardBox i.prev {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox i.prev {
   margin-right: 13px;
 }
-html body .innerPage .center .vipWrap .detailCardBox i.next {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox i.next {
   margin-left: 13px;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap {
   overflow: hidden;
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4205,24 +4231,24 @@ html body .innerPage .center .vipWrap .detailCardBox .wrap ul {
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li {
   margin-right: 9px;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li:last-child {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li:last-child {
   margin: 0;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li .cardBg {
   width: 281px;
   height: 152px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 10px;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .medal {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li .cardBg .medal {
   width: 60px;
   height: 87px;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .content {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li .cardBg .content {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -4232,11 +4258,11 @@ html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .conten
       justify-content: space-around;
   margin-top: 10px;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .content div {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li .cardBg .content div {
   width: 33.3%;
   height: auto;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .content div p {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li .cardBg .content div p {
   width: 100%;
   height: auto;
   color: #ffffff;
@@ -4245,23 +4271,23 @@ html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .conten
   font-weight: bold;
   text-align: center;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .content div p.text {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li .cardBg .content div p.text {
   margin-bottom: 12px;
 }
-html body .innerPage .center .vipWrap .detailCardBox .wrap ul li .cardBg .content div p.num {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailCardBox .wrap ul li .cardBg .content div p.num {
   font-size: 15px;
 }
-html body .innerPage .center .vipWrap .detailTitle_2 {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailTitle_2 {
   font-size: 17px;
   font-weight: bold;
   color: #956817;
   margin: 40px 0 20px 20px;
 }
-html body .innerPage .center .vipWrap .detailTitle_2.sp {
+html body .innerPage .center .vipWrap.innerMode .bottom .detailTitle_2.sp {
   font-size: 24px;
   color: #77400b;
 }
-html body .innerPage .center .vipWrap .fakeTable {
+html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
@@ -4269,7 +4295,7 @@ html body .innerPage .center .vipWrap .fakeTable {
   margin-top: 10px;
   padding: 0 18px;
 }
-html body .innerPage .center .vipWrap .fakeTable li {
+html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4282,13 +4308,13 @@ html body .innerPage .center .vipWrap .fakeTable li {
   height: 50px;
   border-bottom: solid 1px #cccccc;
 }
-html body .innerPage .center .vipWrap .fakeTable li.header {
+html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li.header {
   border-bottom: solid 2px #c29f64;
 }
-html body .innerPage .center .vipWrap .fakeTable li.header div {
+html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li.header div {
   color: #77400b;
 }
-html body .innerPage .center .vipWrap .fakeTable li div {
+html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li div {
   width: 100%;
   text-align: center;
   font-size: 13px;
@@ -4299,27 +4325,27 @@ html body .innerPage .center .vipWrap .fakeTable li div {
           box-sizing: border-box;
   font-weight: bold;
 }
-html body .innerPage .center .vipWrap .fakeTable li div:last-child {
+html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li div:last-child {
   border: none;
 }
-html body .innerPage .center .vipWrap .fakeTable li div:nth-of-type(1) {
+html body .innerPage .center .vipWrap.innerMode .bottom .fakeTable li div:nth-of-type(1) {
   min-width: 185px;
   color: #956817;
 }
-html body .innerPage .center .vipWrap .msg {
+html body .innerPage .center .vipWrap.innerMode .bottom .msg {
   font-size: 16px;
   font-weight: bold;
   color: #956817;
   margin: 0 0 20px 20px;
 }
-html body .innerPage .center .vipWrap .msgBox {
+html body .innerPage .center .vipWrap.innerMode .bottom .msgBox {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 60px;
 }
-html body .innerPage .center .vipWrap .msgBox li {
+html body .innerPage .center .vipWrap.innerMode .bottom .msgBox li {
   font-size: 15px;
   color: #333333;
   list-style: cjk-ideographic;
@@ -4659,7 +4685,7 @@ html body .innerPage .center .cardWrap .cardMiddle .top .content .cardBox .slide
   width: 250px;
   height: 150px;
   margin-right: 15px;
-  background: linear-gradient(120deg, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: linear-gradient(120deg, #e2a737 0%, #b4801c 50%, #f8cf56 100%);
   border: solid 1px #ffffff;
   padding: 15px 17px 0;
   border-radius: 10px;
@@ -4812,7 +4838,7 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .form
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
-  color: #956817;
+  color: #333333;
   white-space: nowrap;
 }
 html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .smallTitle span::before {
@@ -5663,6 +5689,9 @@ html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div p.first, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div p.first {
   color: #77400b;
 }
+html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div p.head, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div p.head {
+  color: #4c4d53;
+}
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div p.day-tips, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div p.day-tips {
   color: #999999;
 }
@@ -5676,32 +5705,38 @@ html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div
   margin: 0 10px;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button {
-  width: 75px;
+  width: 90px;
   height: 27px;
-  background: #ffffff;
-  color: #008599;
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 3px;
-}
-html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button:hover, html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button:active, html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.active, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button:hover, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button:active, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.active {
-  background: #008599;
-  color: #ffffff;
+  padding: 0 10px;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.apply, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.apply {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3351c1), color-stop(50%, #0d2676), to(#3351c1));
+  background: linear-gradient(to bottom, #3351c1 0%, #0d2676 50%, #3351c1 100%);
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
   margin-right: 8px;
 }
+html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.apply:hover, html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.apply:active, html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.apply.active, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.apply:hover, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.apply:active, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.apply.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#0d2676), color-stop(50%, #3351c1), to(#0d2676));
+  background: linear-gradient(to top, #0d2676 0%, #3351c1 50%, #0d2676 100%);
+}
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.check, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.check {
-  background: #ffffff;
-  border: solid 1px #996c33;
-  color: #996c33;
-  font-size: 14px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d59315), color-stop(50%, #955c19), to(#d59315));
+  background: linear-gradient(to bottom, #d59315 0%, #955c19 50%, #d59315 100%);
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 16px;
   font-weight: bold;
-  border-radius: 3px;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.check:hover, html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.check:active, html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .header div button.check.active, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.check:hover, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.check:active, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .header div button.check.active {
-  background: #996c33;
-  color: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, from(#955c19), color-stop(50%, #d59315), to(#955c19));
+  background: linear-gradient(to top, #955c19 0%, #d59315 50%, #955c19 100%);
 }
 html body .innerPage .center .eventWrap .eventMiddle .eventBox ul li .content, html body .innerPage .center .eventWrap .eventMiddle .eventBoxAl ul li .content {
   width: 100%;
@@ -6207,22 +6242,20 @@ html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form .checkBtn button {
   width: 152px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form .checkBtn button:hover, html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form .checkBtn button:active, html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form .checkBtn button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .fakeTable {
   width: 100%;
@@ -6384,25 +6417,32 @@ html body .innerPage .center .dealWrap .bottom .waterBox table tr td p i {
 html body .innerPage .center .betWrap {
   width: 1140px;
   height: auto;
-  padding: 15px 0 28px;
+}
+html body .innerPage .center .betWrap .top {
+  margin-bottom: 22px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #956817;
+  font-weight: bold;
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
+  padding: 15px 22px;
+}
+html body .innerPage .center .betWrap .bottom {
+  padding-top: 22px;
   background: #ffffff;
   -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   border: 1px solid #dd9d28;
 }
-html body .innerPage .center .betWrap form {
+html body .innerPage .center .betWrap .bottom form {
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .betWrap form .title {
-  padding-left: 23px;
-  margin-bottom: 28px;
-  font-size: 20px;
-  letter-spacing: 2px;
-  color: #956817;
-  font-weight: bold;
-}
-html body .innerPage .center .betWrap form .inputGroup {
+html body .innerPage .center .betWrap .bottom form .inputGroup {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6416,14 +6456,14 @@ html body .innerPage .center .betWrap form .inputGroup {
   padding-left: 25px;
   margin-bottom: 17px;
 }
-html body .innerPage .center .betWrap form .inputGroup p {
+html body .innerPage .center .betWrap .bottom form .inputGroup p {
   margin-right: 25px;
   font-size: 14px;
   letter-spacing: 1px;
   color: #956817;
   font-weight: bold;
 }
-html body .innerPage .center .betWrap form .inputGroup select {
+html body .innerPage .center .betWrap .bottom form .inputGroup select {
   width: 287px;
   height: 43px;
   margin-right: 30px;
@@ -6442,11 +6482,11 @@ html body .innerPage .center .betWrap form .inputGroup select {
   font-weight: bold;
   color: #000000;
 }
-html body .innerPage .center .betWrap form .inputGroup select option {
+html body .innerPage .center .betWrap .bottom form .inputGroup select option {
   background: #ffffff;
   color: #000000;
 }
-html body .innerPage .center .betWrap form .timeGroup {
+html body .innerPage .center .betWrap .bottom form .timeGroup {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
@@ -6463,7 +6503,7 @@ html body .innerPage .center .betWrap form .timeGroup {
   padding: 0 19px 0 25px;
   margin-bottom: 25px;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6471,17 +6511,17 @@ html body .innerPage .center .betWrap form .timeGroup .timeBox {
       -ms-flex-align: center;
           align-items: center;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox p {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox p {
   margin-right: 25px;
   font-size: 14px;
   letter-spacing: 1px;
   color: #956817;
   font-weight: bold;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox p.remind {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox p.remind {
   color: #e11515;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox input {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox input {
   width: 287px;
   height: 43px;
   margin-right: 30px;
@@ -6495,22 +6535,22 @@ html body .innerPage .center .betWrap form .timeGroup .timeBox input {
           box-sizing: border-box;
   padding: 0 20px;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox input::-webkit-input-placeholder {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox input::-webkit-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox input::-moz-placeholder {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox input::-moz-placeholder {
   color: #848484;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox input:-ms-input-placeholder {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox input:-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox input::-ms-input-placeholder {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox input::-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox input::placeholder {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox input::placeholder {
   color: #848484;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox .btnBox button {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox .btnBox button {
   width: 72px;
   height: 43px;
   margin-right: 8px;
@@ -6522,71 +6562,69 @@ html body .innerPage .center .betWrap form .timeGroup .timeBox .btnBox button {
   font-size: 14px;
   font-weight: bold;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox .btnBox button:hover, html body .innerPage .center .betWrap form .timeGroup .timeBox .btnBox button:active, html body .innerPage .center .betWrap form .timeGroup .timeBox .btnBox button.active {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox .btnBox button:hover, html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox .btnBox button:active, html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox .btnBox button.active {
   background: #c29f64;
   border-color: #c29f64;
   color: #ffffff;
 }
-html body .innerPage .center .betWrap form .timeGroup .timeBox .btnBox button:last-child {
+html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox .btnBox button:last-child {
   margin-right: 15px;
 }
-html body .innerPage .center .betWrap form .timeGroup .checkBtn {
+html body .innerPage .center .betWrap .bottom form .timeGroup .checkBtn {
   width: 152px;
   height: 43px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
-html body .innerPage .center .betWrap form .timeGroup .checkBtn:hover, html body .innerPage .center .betWrap form .timeGroup .checkBtn:active, html body .innerPage .center .betWrap form .timeGroup .checkBtn.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+html body .innerPage .center .betWrap .bottom form .timeGroup .checkBtn:hover, html body .innerPage .center .betWrap .bottom form .timeGroup .checkBtn:active, html body .innerPage .center .betWrap .bottom form .timeGroup .checkBtn.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
-html body .innerPage .center .betWrap .fakeTable {
+html body .innerPage .center .betWrap .bottom .fakeTable {
   width: 100%;
   height: auto;
   margin: 15px 0 30px;
 }
-html body .innerPage .center .betWrap .fakeTable ul {
+html body .innerPage .center .betWrap .bottom .fakeTable ul {
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .betWrap .fakeTable ul li {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li {
   width: 100%;
   height: 40px;
   border-bottom: solid 1px #cccccc;
 }
-html body .innerPage .center .betWrap .fakeTable ul li.title {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li.title {
   border-bottom: solid 1px #c29f64;
 }
-html body .innerPage .center .betWrap .fakeTable ul li.title p {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li.title p {
   color: #77400b !important;
 }
-html body .innerPage .center .betWrap .fakeTable ul li.title p::before {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li.title p::before {
   display: none;
 }
-html body .innerPage .center .betWrap .fakeTable ul li.active {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li.active {
   height: auto;
 }
-html body .innerPage .center .betWrap .fakeTable ul li.active .wordWrap {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li.active .wordWrap {
   height: 40px;
 }
-html body .innerPage .center .betWrap .fakeTable ul li.active .wordWrap .arrow_ic {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li.active .wordWrap .arrow_ic {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-html body .innerPage .center .betWrap .fakeTable ul li.active table {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li.active table {
   display: table;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6596,20 +6634,20 @@ html body .innerPage .center .betWrap .fakeTable ul li .wordWrap {
   width: 100%;
   height: 100%;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p {
   position: relative;
   color: #333333;
   font-weight: bold;
   font-size: 14px;
   text-align: center;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:nth-of-type(1), html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:nth-of-type(2), html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:nth-of-type(3) {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p:nth-of-type(1), html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p:nth-of-type(2), html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p:nth-of-type(3) {
   width: 24%;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:nth-of-type(4), html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:nth-of-type(5) {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p:nth-of-type(4), html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p:nth-of-type(5) {
   width: 11%;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:last-child {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p:last-child {
   width: 6%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6622,10 +6660,10 @@ html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:last-child {
           align-items: center;
   cursor: pointer;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p:last-child::before {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p:last-child::before {
   display: none;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p::before {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p::before {
   content: "";
   position: absolute;
   right: 0px;
@@ -6636,17 +6674,17 @@ html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p::before {
           transform: translateY(-50%);
   background: #cccccc;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p.result {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p.result {
   color: #e11515;
 }
-html body .innerPage .center .betWrap .fakeTable ul li .wordWrap p .arrow_ic {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li .wordWrap p .arrow_ic {
   display: block;
   width: 9px;
   height: 16px;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
-html body .innerPage .center .betWrap .fakeTable ul li table {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table {
   display: none;
   width: 97%;
   margin: 15px auto;
@@ -6656,14 +6694,14 @@ html body .innerPage .center .betWrap .fakeTable ul li table {
           box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr:nth-of-type(1) {
-  background: -webkit-gradient(linear, left top, right top, color-stop(3%, #eaa92c), color-stop(43%, #dda12e), color-stop(89%, #ffd147));
-  background: linear-gradient(to right, #eaa92c 3%, #dda12e 43%, #ffd147 89%);
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr:nth-of-type(1) {
+  background: -webkit-gradient(linear, left top, right top, color-stop(3%, #eaa92c), color-stop(43%, #dda12e), color-stop(89%, #ffd147), to(#eaa92c));
+  background: linear-gradient(to right, #eaa92c 3%, #dda12e 43%, #ffd147 89%, #eaa92c 100%);
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr:last-child td {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr:last-child td {
   border: none;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr th {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr th {
   font-size: 14px;
   font-weight: bold;
   color: #ffffff;
@@ -6671,7 +6709,7 @@ html body .innerPage .center .betWrap .fakeTable ul li table tr th {
   height: 40px;
   vertical-align: middle;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr td {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td {
   font-weight: bold;
   font-size: 14px;
   color: #333333;
@@ -6680,22 +6718,22 @@ html body .innerPage .center .betWrap .fakeTable ul li table tr td {
   vertical-align: middle;
   border-bottom: solid 1px #cccccc;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr td:nth-of-type(1), html body .innerPage .center .betWrap .fakeTable ul li table tr td:nth-of-type(7) {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td:nth-of-type(1), html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td:nth-of-type(7) {
   width: 15%;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr td:nth-of-type(2) {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td:nth-of-type(2) {
   width: 10%;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr td:nth-of-type(3) {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td:nth-of-type(3) {
   width: 30%;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr td:nth-of-type(4), html body .innerPage .center .betWrap .fakeTable ul li table tr td:nth-of-type(5) {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td:nth-of-type(4), html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td:nth-of-type(5) {
   width: 8%;
 }
-html body .innerPage .center .betWrap .fakeTable ul li table tr td:nth-of-type(6) {
+html body .innerPage .center .betWrap .bottom .fakeTable ul li table tr td:nth-of-type(6) {
   width: 14%;
 }
-html body .innerPage .center .betWrap .noData {
+html body .innerPage .center .betWrap .bottom .noData {
   display: none;
   width: 100%;
   height: 348px;
@@ -6710,7 +6748,7 @@ html body .innerPage .center .betWrap .noData {
   color: #666666;
   font-weight: bold;
 }
-html body .innerPage .center .betWrap .noData.display {
+html body .innerPage .center .betWrap .bottom .noData.display {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6823,7 +6861,7 @@ html body .innerPage .center .depositWrap .depositMiddle .top .list .box ul li {
   color: #333333;
   font-size: 14px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 20px;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6836,8 +6874,8 @@ html body .innerPage .center .depositWrap .depositMiddle .top .list .box ul li {
           justify-content: center;
 }
 html body .innerPage .center .depositWrap .depositMiddle .top .list .box ul li:hover, html body .innerPage .center .depositWrap .depositMiddle .top .list .box ul li:active, html body .innerPage .center .depositWrap .depositMiddle .top .list .box ul li.active {
-  background: -webkit-gradient(linear, right top, left top, from(#e0cb89), to(#de9649));
-  background: linear-gradient(to left, #e0cb89 0%, #de9649 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#b68222), to(#df9e28));
+  background: linear-gradient(to right, #b68222 0%, #df9e28 100%);
   color: #ffffff;
 }
 html body .innerPage .center .depositWrap .depositMiddle .top .list .box ul li i {
@@ -6963,22 +7001,20 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content form b
   width: 257px;
   height: 41px;
   margin: 28px 0 0 108px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content form button:hover, html body .innerPage .center .depositWrap .depositMiddle .bottom .content form button:active, html body .innerPage .center .depositWrap .depositMiddle .bottom .content form button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content .remindBox {
   width: 839px;
@@ -7095,6 +7131,9 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li 
   font-weight: bold;
   left: 55px;
 }
+html body .innerPage .center .depositWrap .rightSide .detailBox {
+  border-radius: 25px 25px 0 0;
+}
 html body .innerPage .center .transferWrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7104,10 +7143,6 @@ html body .innerPage .center .transferWrap .transferMiddle {
   width: 880px;
   height: auto;
   margin-right: 15px;
-  background: #ffffff;
-  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border: 1px solid #dd9d28;
 }
 html body .innerPage .center .transferWrap .transferMiddle .title {
   width: 100%;
@@ -7121,6 +7156,12 @@ html body .innerPage .center .transferWrap .transferMiddle .title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
+  margin-bottom: 22px;
 }
 html body .innerPage .center .transferWrap .transferMiddle .title div {
   color: #956817;
@@ -7128,7 +7169,20 @@ html body .innerPage .center .transferWrap .transferMiddle .title div {
   letter-spacing: 2px;
   font-weight: bold;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet {
+html body .innerPage .center .transferWrap .transferMiddle .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
+}
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet {
   width: 100%;
   height: 130px;
   display: -webkit-box;
@@ -7141,14 +7195,14 @@ html body .innerPage .center .transferWrap .transferMiddle .wallet {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet {
   width: 49%;
   height: 100%;
   padding: 18px 25px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .walletTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7159,7 +7213,7 @@ html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle p {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .walletTitle p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7168,16 +7222,16 @@ html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet
           align-items: center;
   font-size: 17px;
   letter-spacing: 2px;
-  color: #77400b;
+  color: #956817;
   font-weight: bold;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle p .reset_ic {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .walletTitle p .reset_ic {
   display: block;
   width: 16px;
   height: 16px;
   margin-left: 6px;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .walletTitle button {
   width: 71px;
   height: 23px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
@@ -7190,7 +7244,7 @@ html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet
   border-radius: 100px;
   font-size: 12px;
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button:hover, html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button:active, html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .walletTitle button.active {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .walletTitle button:hover, html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .walletTitle button:active, html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .walletTitle button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
   background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
   border: 1px solid #f7be50;
@@ -7198,7 +7252,7 @@ html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet
   -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
-html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet .amount {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .wallet .centerWallet .amount {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
@@ -7208,21 +7262,21 @@ html body .innerPage .center .transferWrap .transferMiddle .wallet .centerWallet
   font-weight: bold;
   color: #1c42bd;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 21px 23px 0;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform .platformTitle {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform .platformTitle {
   font-size: 17px;
   font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 20px;
   color: #956817;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform ul {
   width: 100%;
   height: 97px;
   display: -webkit-box;
@@ -7232,10 +7286,10 @@ html body .innerPage .center .transferWrap .transferMiddle .platform ul {
       flex-wrap: wrap;
   overflow: hidden;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul.active {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform ul.active {
   height: auto;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform ul li {
   width: 196px;
   height: 97px;
   -webkit-box-sizing: border-box;
@@ -7245,21 +7299,21 @@ html body .innerPage .center .transferWrap .transferMiddle .platform ul li {
   border: solid 1px #cccccc;
   border-radius: 5px;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li:nth-of-type(4n) {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform ul li:nth-of-type(4n) {
   margin-right: 0;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li .name {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform ul li .name {
   margin-bottom: 5px;
   font-size: 16px;
   color: #333333;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform ul li .amount {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform ul li .amount {
   font-size: 25px;
   font-weight: bold;
   color: #956817;
   margin-top: 8px;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform .open {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform .open {
   width: 100%;
   height: auto;
   padding: 23px 0 35px;
@@ -7274,7 +7328,7 @@ html body .innerPage .center .transferWrap .transferMiddle .platform .open {
       -ms-flex-pack: center;
           justify-content: center;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform .open button {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform .open button {
   color: #333333;
   background: none;
   display: -webkit-box;
@@ -7285,20 +7339,20 @@ html body .innerPage .center .transferWrap .transferMiddle .platform .open butto
           align-items: center;
   font-size: 13px;
 }
-html body .innerPage .center .transferWrap .transferMiddle .platform .open button i {
+html body .innerPage .center .transferWrap .transferMiddle .bottom .platform .open button i {
   display: block;
   width: 14px;
   height: 14px;
   margin-left: 10px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form {
   width: 100%;
   height: auto;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 25px 0 36px 27px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .formTitle {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .formTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7311,13 +7365,13 @@ html body .innerPage .center .transferWrap .transferMiddle form .formTitle {
   color: #956817;
   font-weight: bold;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .formTitle .remind {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .formTitle .remind {
   margin-left: 25px;
   font-size: 14px;
   letter-spacing: 1px;
   color: #e11515;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .platformBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7331,19 +7385,19 @@ html body .innerPage .center .transferWrap .transferMiddle form .platformBox {
   height: auto;
   margin-bottom: 20px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox p {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .platformBox p {
   width: 56px;
   text-align: center;
   font-size: 14px;
-  color: #956817;
+  color: #333333;
   font-weight: bold;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox .trans_ic {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .platformBox .trans_ic {
   display: block;
   width: 27px;
   height: 23px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox select {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .platformBox select {
   width: 256px;
   height: 42px;
   border-radius: 3px;
@@ -7361,11 +7415,11 @@ html body .innerPage .center .transferWrap .transferMiddle form .platformBox sel
   font-weight: bold;
   color: #000000;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .platformBox select option {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .platformBox select option {
   background: #ffffff;
   color: #000000;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox {
   width: auto;
   height: auto;
   display: -webkit-box;
@@ -7375,18 +7429,18 @@ html body .innerPage .center .transferWrap .transferMiddle form .moneyBox {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox p {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox p {
   font-size: 14px;
   font-weight: bold;
-  color: #956817;
+  color: #333333;
   margin-top: 14px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox {
   width: auto;
   height: auto;
   margin-left: 31px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox input {
   width: 256px;
   height: 42px;
   background: #ffffff;
@@ -7399,22 +7453,22 @@ html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .input
           box-sizing: border-box;
   padding: 0 20px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::-webkit-input-placeholder {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox input::-webkit-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::-moz-placeholder {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox input::-moz-placeholder {
   color: #848484;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input:-ms-input-placeholder {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox input:-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::-ms-input-placeholder {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox input::-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox input::placeholder {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox input::placeholder {
   color: #848484;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox {
   width: 256px;
   height: auto;
   display: -webkit-box;
@@ -7424,7 +7478,7 @@ html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .input
       flex-wrap: wrap;
   margin-top: 20px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button {
   width: 82px;
   height: 32px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ffffff), to(#f4f4f4));
@@ -7436,34 +7490,35 @@ html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .input
   font-weight: bold;
   margin: 0 5px 5px 0;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button:hover, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button:active, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.active {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button:hover, html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button:active, html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button.active {
   background: #ffffff;
   color: #996c33;
   border-color: #996c33;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button:nth-of-type(3n) {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button:nth-of-type(3n) {
   margin-right: 0;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check {
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button.check {
   width: 256px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
   margin-top: 15px;
 }
-html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check:hover, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check:active, html body .innerPage .center .transferWrap .transferMiddle form .moneyBox .inputBox .btnBox button.check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button.check:hover, html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button.check:active, html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button.check.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+html body .innerPage .center .transferWrap .rightSide .detailBox {
+  border-radius: 25px 25px 0 0;
 }
 html body .innerPage .center .withdrawalWrap {
   display: -webkit-box;
@@ -7536,7 +7591,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .
           align-items: center;
   font-size: 17px;
   letter-spacing: 2px;
-  color: #77400b;
+  color: #4c4d53;
   font-weight: bold;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p.limit {
@@ -7546,7 +7601,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .
           justify-content: space-between;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p.canUse {
-  color: #956817;
+  color: #4c4d53;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .walletBox .smallBox .smallTitle p i {
   display: block;
@@ -7593,7 +7648,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox
   font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 20px;
-  color: #956817;
+  color: #4c4d53;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul {
   width: 100%;
@@ -7629,7 +7684,7 @@ html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox ul li .amount {
   font-size: 25px;
   font-weight: bold;
-  color: #1c42bd;
+  color: #956817;
   margin-top: 8px;
 }
 html body .innerPage .center .withdrawalWrap .withdrawalMiddle .top .platformBox .open {
@@ -7855,22 +7910,30 @@ html body .innerPage .center .withdrawalWrap .rightSide .detailBox {
 html body .innerPage .center .inviteWrap {
   width: 1140px;
   height: auto;
-  background: #ffffff;
-  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 20px;
 }
 html body .innerPage .center .inviteWrap .title {
   color: #956817;
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 22px;
+  padding: 18px 22px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
 }
-html body .innerPage .center .inviteWrap .box {
+html body .innerPage .center .inviteWrap .bottom {
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
+  padding: 22px;
+}
+html body .innerPage .center .inviteWrap .bottom .box {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -7880,11 +7943,11 @@ html body .innerPage .center .inviteWrap .box {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-html body .innerPage .center .inviteWrap .box .left {
+html body .innerPage .center .inviteWrap .bottom .box .left {
   width: auto;
   height: auto;
 }
-html body .innerPage .center .inviteWrap .box .left .row {
+html body .innerPage .center .inviteWrap .bottom .box .left .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7893,19 +7956,19 @@ html body .innerPage .center .inviteWrap .box .left .row {
           align-items: center;
   height: 50px;
 }
-html body .innerPage .center .inviteWrap .box .left .row p {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p {
   font-size: 14px;
   font-weight: bold;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(1) {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(1) {
   width: 80px;
-  color: #956817;
+  color: #333333;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(2) {
   width: 190px;
   color: #333333;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(2) input {
   width: 100%;
   height: 36px;
   background: #ffffff;
@@ -7918,22 +7981,22 @@ html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input 
           box-sizing: border-box;
   padding: 0 20px;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input::-webkit-input-placeholder {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(2) input::-webkit-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input::-moz-placeholder {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(2) input::-moz-placeholder {
   color: #848484;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input:-ms-input-placeholder {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(2) input:-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input::-ms-input-placeholder {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(2) input::-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .inviteWrap .box .left .row p:nth-of-type(2) input::placeholder {
+html body .innerPage .center .inviteWrap .bottom .box .left .row p:nth-of-type(2) input::placeholder {
   color: #848484;
 }
-html body .innerPage .center .inviteWrap .box .left .row button {
+html body .innerPage .center .inviteWrap .bottom .box .left .row button {
   width: auto;
   height: 36px;
   background: #ffffff;
@@ -7945,11 +8008,11 @@ html body .innerPage .center .inviteWrap .box .left .row button {
   padding: 0 5px;
   margin-left: 10px;
 }
-html body .innerPage .center .inviteWrap .box .left .row button:hover, html body .innerPage .center .inviteWrap .box .left .row button:active, html body .innerPage .center .inviteWrap .box .left .row button.active {
+html body .innerPage .center .inviteWrap .bottom .box .left .row button:hover, html body .innerPage .center .inviteWrap .bottom .box .left .row button:active, html body .innerPage .center .inviteWrap .bottom .box .left .row button.active {
   background: #996c33;
   color: #ffffff;
 }
-html body .innerPage .center .inviteWrap .box .right {
+html body .innerPage .center .inviteWrap .bottom .box .right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -7962,26 +8025,26 @@ html body .innerPage .center .inviteWrap .box .right {
           justify-content: space-between;
   margin-right: 200px;
 }
-html body .innerPage .center .inviteWrap .box .right p {
+html body .innerPage .center .inviteWrap .bottom .box .right p {
   font-size: 14px;
   font-weight: bold;
-  color: #956817;
+  color: #333333;
   line-height: 18px;
 }
-html body .innerPage .center .inviteWrap .box .right div {
+html body .innerPage .center .inviteWrap .bottom .box .right div {
   width: 100px;
   height: 100px;
 }
-html body .innerPage .center .inviteWrap .mainImg {
+html body .innerPage .center .inviteWrap .bottom .mainImg {
   width: 100%;
   height: 505px;
   margin: 20px 0;
 }
-html body .innerPage .center .inviteWrap .wordBox {
+html body .innerPage .center .inviteWrap .bottom .wordBox {
   width: auto;
   height: auto;
 }
-html body .innerPage .center .inviteWrap .wordBox p {
+html body .innerPage .center .inviteWrap .bottom .wordBox p {
   font-size: 14px;
   font-weight: bold;
   color: #333333;
@@ -7990,10 +8053,6 @@ html body .innerPage .center .inviteWrap .wordBox p {
 html body .innerPage .center .pointWrap {
   width: 1140px;
   height: auto;
-  background: #ffffff;
-  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
-  border: 1px solid #dd9d28;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -8003,11 +8062,23 @@ html body .innerPage .center .pointWrap .title {
   letter-spacing: 2px;
   font-weight: bold;
   margin-bottom: 15px;
-  padding: 20px 20px 0;
+  padding: 15px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
+  border-radius: 25px 25px 0 0;
 }
-html body .innerPage .center .pointWrap .searchBox {
+html body .innerPage .center .pointWrap .bottom {
+  height: 90%;
+  background: #ffffff;
+  -webkit-box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+  border: 1px solid #dd9d28;
+}
+html body .innerPage .center .pointWrap .bottom .searchBox {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -8021,12 +8092,12 @@ html body .innerPage .center .pointWrap .searchBox {
           box-sizing: border-box;
   padding: 0 20px;
 }
-html body .innerPage .center .pointWrap .searchBox .left {
+html body .innerPage .center .pointWrap .bottom .searchBox .left {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-html body .innerPage .center .pointWrap .searchBox .left .inputBox {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .inputBox {
   width: auto;
   height: auto;
   display: -webkit-box;
@@ -8040,7 +8111,7 @@ html body .innerPage .center .pointWrap .searchBox .left .inputBox {
   font-weight: bold;
   margin-right: 15px;
 }
-html body .innerPage .center .pointWrap .searchBox .left .inputBox input {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .inputBox input {
   width: 250px;
   height: 36px;
   background: #ffffff;
@@ -8054,29 +8125,29 @@ html body .innerPage .center .pointWrap .searchBox .left .inputBox input {
   padding: 0 20px;
   margin-left: 20px;
 }
-html body .innerPage .center .pointWrap .searchBox .left .inputBox input::-webkit-input-placeholder {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .inputBox input::-webkit-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .pointWrap .searchBox .left .inputBox input::-moz-placeholder {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .inputBox input::-moz-placeholder {
   color: #848484;
 }
-html body .innerPage .center .pointWrap .searchBox .left .inputBox input:-ms-input-placeholder {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .inputBox input:-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .pointWrap .searchBox .left .inputBox input::-ms-input-placeholder {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .inputBox input::-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .pointWrap .searchBox .left .inputBox input::placeholder {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .inputBox input::placeholder {
   color: #848484;
 }
-html body .innerPage .center .pointWrap .searchBox .left .btnBox {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .btnBox {
   width: auto;
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-html body .innerPage .center .pointWrap .searchBox .left .btnBox button {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .btnBox button {
   width: 70px;
   height: 36px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(40%, #ffffff), to(#f4f4f4));
@@ -8088,73 +8159,71 @@ html body .innerPage .center .pointWrap .searchBox .left .btnBox button {
   font-weight: bold;
   margin-right: 8px;
 }
-html body .innerPage .center .pointWrap .searchBox .left .btnBox button:hover, html body .innerPage .center .pointWrap .searchBox .left .btnBox button:active, html body .innerPage .center .pointWrap .searchBox .left .btnBox button.active {
+html body .innerPage .center .pointWrap .bottom .searchBox .left .btnBox button:hover, html body .innerPage .center .pointWrap .bottom .searchBox .left .btnBox button:active, html body .innerPage .center .pointWrap .bottom .searchBox .left .btnBox button.active {
   background: #c29f64;
   border-color: #c29f64;
   color: #ffffff;
 }
-html body .innerPage .center .pointWrap .searchBox .check {
+html body .innerPage .center .pointWrap .bottom .searchBox .check {
   width: 140px;
   height: 36px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
-html body .innerPage .center .pointWrap .searchBox .check:hover, html body .innerPage .center .pointWrap .searchBox .check:active, html body .innerPage .center .pointWrap .searchBox .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+html body .innerPage .center .pointWrap .bottom .searchBox .check:hover, html body .innerPage .center .pointWrap .bottom .searchBox .check:active, html body .innerPage .center .pointWrap .bottom .searchBox .check.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
-html body .innerPage .center .pointWrap hr {
+html body .innerPage .center .pointWrap .bottom hr {
   margin: 15px 0;
 }
-html body .innerPage .center .pointWrap table {
+html body .innerPage .center .pointWrap .bottom table {
   width: 92%;
   height: auto;
   margin: 0 auto;
 }
-html body .innerPage .center .pointWrap table tr {
+html body .innerPage .center .pointWrap .bottom table tr {
   border-bottom: solid 1px #cccccc;
 }
-html body .innerPage .center .pointWrap table tr:nth-of-type(1) {
+html body .innerPage .center .pointWrap .bottom table tr:nth-of-type(1) {
   border: none;
 }
-html body .innerPage .center .pointWrap table tr th {
+html body .innerPage .center .pointWrap .bottom table tr th {
   vertical-align: middle;
   height: 40px;
   border-bottom: solid 2px #c29f64;
 }
-html body .innerPage .center .pointWrap table tr th p {
+html body .innerPage .center .pointWrap .bottom table tr th p {
   font-size: 14px;
   font-weight: bold;
   color: #77400b;
 }
-html body .innerPage .center .pointWrap table tr td {
+html body .innerPage .center .pointWrap .bottom table tr td {
   width: 25%;
   vertical-align: middle;
   height: 40px;
 }
-html body .innerPage .center .pointWrap table tr td:last-child p {
+html body .innerPage .center .pointWrap .bottom table tr td:last-child p {
   border: none;
 }
-html body .innerPage .center .pointWrap table tr td p {
+html body .innerPage .center .pointWrap .bottom table tr td p {
   font-size: 14px;
   font-weight: bold;
   color: #333333;
   text-align: center;
   border-right: solid 1px #cccccc;
 }
-html body .innerPage .center .pointWrap table tr td p.open {
+html body .innerPage .center .pointWrap .bottom table tr td p.open {
   text-decoration: underline;
-  color: #008599;
+  color: #181dd5;
   cursor: pointer;
 }
 html body .helpPage {

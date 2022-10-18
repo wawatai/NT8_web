@@ -43,7 +43,7 @@ $link: #181dd5;
 $filter: #0000009e;
 
 //彈窗標頭色
-$jumpWindow_Header: linear-gradient(to right, #eaa92c 3%, #dda12e 43%, #ffd147 89%);
+$jumpWindow_Header: linear-gradient(to right, #eaa92c 3%, #dda12e 43%, #ffd147 89%, #eaa92c 100%);
 $jumpWindow_closeIC: #ab7617;
 
 //帳號低中高強度
@@ -268,7 +268,7 @@ $innerPlatBox_BG: #fffdf7;
 
 //bankCard樣式
 @mixin bankCard {
-  background: linear-gradient(120deg, #f1d7b7 0%, #cca172 50%, #f1c999 100%);
+  background: linear-gradient(120deg, #e2a737 0%,#b4801c 50%, #f8cf56 100%);
   border: solid 1px #ffffff;
   padding: 15px 17px 0;
   border-radius: 10px;
@@ -480,13 +480,13 @@ $footerNAV_HOV: #aa7217;
   color: #333333;
   font-size: 14px;
   font-weight: bold;
-  border-radius: 3px;
+  border-radius: 20px;
   cursor: pointer;
 
   &:hover,
   &:active,
   &.active {
-    background: linear-gradient(to left, #e0cb89 0%, #de9649 100%);
+    background: linear-gradient(to right, #b68222 0%, #df9e28 100%);
     color: #ffffff;
   }
 }
@@ -641,6 +641,7 @@ button:disabled {
     background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
     color: #ffffff;
     font-size: 16px;
+    border: 0px;
     border-radius: 30px;
     box-shadow: 0 3px 6px $mainShadow_1;
 
