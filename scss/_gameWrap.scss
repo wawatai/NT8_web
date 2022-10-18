@@ -100,7 +100,7 @@
                 align-items: flex-end;
                 font-weight: bold;
                 background: $gameWrap_Linear;
-                -webkit-background-clip: text;
+                background-clip: text;
 
                 .big {
                     font-size: 62px;

@@ -2617,6 +2617,7 @@ html body .gameWrap .content .textBox .title {
   background: -webkit-gradient(linear, left top, left bottom, from(#c6740a), color-stop(81%, #f2aa1f));
   background: linear-gradient(to bottom, #c6740a 0%, #f2aa1f 81%);
   -webkit-background-clip: text;
+          background-clip: text;
 }
 html body .gameWrap .content .textBox .title .big {
   font-size: 62px;
@@ -2941,10 +2942,21 @@ html body .eventWrap .eventTitle {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
-html body .eventWrap .eventTitle p {
+html body .eventWrap .eventTitle .titleClip {
+  width: 244px;
+  height: 61px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(23%, #CA850D), color-stop(70%, #8C5A0B), color-stop(95%, #CA850D));
+  background: linear-gradient(to bottom, #CA850D 23%, #8C5A0B 70%, #CA850D 95%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  position: absolute;
+  top: 35%;
+  left: 51.8%;
+}
+html body .eventWrap .eventTitle .titleClip p {
   font-size: 61px;
-  color: #77400b;
   font-weight: bold;
 }
 html body .eventWrap .eventBody {
