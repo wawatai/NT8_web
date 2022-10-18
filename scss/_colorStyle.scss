@@ -394,6 +394,22 @@ $footerNAV_HOV: #aa7217;
     box-shadow: 0px 2px 6px rgb(0, 0, 0, 30%);
 }
 }
+
+
+@mixin mainBtn2 {
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 30px;
+  box-shadow: 0 3px 6px $mainShadow_1;
+
+  &:hover,&:active,&.active {
+    background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+    box-shadow: 0 3px 8px $mainShadow_1;
+  }
+}
+
 //遊戲快速轉帳彈窗按鈕
 @mixin fastBtn {
   background: linear-gradient(to bottom, #ffffff 40%, #f4f4f4 100%);
@@ -634,21 +650,6 @@ button:disabled {
   color: #ffffff !important;
   box-shadow: none !important;
   cursor: not-allowed;
-}
-
-//彈窗按鈕
-@mixin jumpwindowBTN {
-    background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
-    color: #ffffff;
-    font-size: 16px;
-    border: 0px;
-    border-radius: 30px;
-    box-shadow: 0 3px 6px $mainShadow_1;
-
-    &:hover,&:active,&.active {
-      background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
-      box-shadow: 0 3px 8px $mainShadow_1;
-    }
 }
 
 //input

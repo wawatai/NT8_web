@@ -47,7 +47,7 @@
                     width: 272px;
                     height: 42px;
                     margin-top: 15px;
-                    @include jumpwindowBTN;;
+                    @include mainBtn2;;
                 }
     
                 p {
@@ -175,7 +175,7 @@
                 button {
                     width: 322px;
                     height: 42px;
-                    @include jumpwindowBTN;
+                    @include mainBtn2;
                     box-shadow: 0 3px 6px $mainShadow_1;
                 }
             }
@@ -406,7 +406,7 @@
                 button {
                     width: 322px;
                     height: 42px;
-                    @include jumpwindowBTN;
+                    @include mainBtn2;
                 }
             }
         }
@@ -641,7 +641,7 @@
                 button {
                     width: 322px;
                     height: 42px;
-                    @include jumpwindowBTN;
+                    @include mainBtn2;
                     box-shadow: 0 3px 6px $mainShadow_1;
                 }
             }
@@ -672,7 +672,7 @@
                 button {
                     width: 322px;
                     height: 42px;
-                    @include jumpwindowBTN;
+                    @include mainBtn2;
                     box-shadow: 0 3px 6px $mainShadow_1;
                 }
             }

@@ -453,7 +453,7 @@
                                                     height: 42px;
                                                     position: relative;
                                                     left: 110px;
-                                                    @include jumpwindowBTN;
+                                                    @include mainBtn2;
                                                 }
                                                 
                                                 span {
@@ -578,7 +578,7 @@
                                 button {
                                     width: 80px;
                                     height: 42px;
-                                    @include mainBtn;
+                                    @include mainBtn2;
                                     margin-left: 10px;
                                 }
                             }
@@ -1430,100 +1430,97 @@
                         box-sizing: border-box;
                         padding: 15px 20px 35px;
 
-                        div {
+                        .title {
+                            font-size: 17px;
+                            letter-spacing: 2px;
+                            font-weight: bold;
+                            color: $title_2;
+                        }
 
-                            .title {
-                                font-size: 17px;
-                                letter-spacing: 2px;
-                                font-weight: bold;
-                                color: $title_2;
-                            }
+                        .formBox {
+                            margin-top: 25px;
+                            width: 100%;
+                            height: auto;
 
-                            .formBox {
-                                margin-top: 25px;
+                            form {
                                 width: 100%;
                                 height: auto;
 
-                                form {
+                                .content {
+                                    display: flex;
+                                    flex-direction: column;
                                     width: 100%;
                                     height: auto;
 
-                                    .content {
-                                        display: flex;
-                                        flex-direction: column;
+                                    .row {
                                         width: 100%;
                                         height: auto;
+                                        display: flex;
+                                        margin-bottom: 35px;
 
-                                        .row {
+                                        .smallTitle {
+                                            width: 98px;
+                                            font-size: 14px;
+                                            display: flex;
+                                            align-items: center;
+                                            margin-right: 6px;
+                                            justify-content: flex-end;
+                                            padding-right: 20px;
+                                            box-sizing: border-box;
+
+                                            span {
+                                                font-size: 14px;
+                                                letter-spacing: 1px;
+                                                font-weight: bold;
+                                                color: $mainFont_1;
+                                                white-space: nowrap;
+
+                                                &::before {
+                                                    content: "※";
+                                                    font-size: 13px;
+                                                    margin-right: 5px;
+                                                    letter-spacing: 1px;
+                                                    color: $remind;
+                                                }
+                                            }
+                                        }
+
+                                        .inputBox {
+                                            position: relative;
                                             width: 100%;
                                             height: auto;
-                                            display: flex;
-                                            margin-bottom: 35px;
 
-                                            .smallTitle {
-                                                width: 98px;
-                                                font-size: 14px;
-                                                display: flex;
-                                                align-items: center;
-                                                margin-right: 6px;
-                                                justify-content: flex-end;
-                                                padding-right: 20px;
-                                                box-sizing: border-box;
+                                            input {
+                                                width: 258px;
+                                                height: 42px;
+                                                @include mainInput;
+                                            }
 
-                                                span {
-                                                    font-size: 14px;
-                                                    letter-spacing: 1px;
-                                                    font-weight: bold;
-                                                    color: $mainFont_1;
-                                                    white-space: nowrap;
+                                            .err {
+                                                display: none;
+                                                font-size: 12px;
+                                                padding-top: 3px;
+                                                color: $remind;
 
-                                                    &::before {
-                                                        content: "※";
-                                                        font-size: 13px;
-                                                        margin-right: 5px;
-                                                        letter-spacing: 1px;
-                                                        color: $remind;
-                                                    }
+                                                &.display {
+                                                    display: block;
                                                 }
                                             }
 
-                                            .inputBox {
-                                                position: relative;
-                                                width: 100%;
-                                                height: auto;
+                                            small {
+                                                font-size: 12px;
+                                                letter-spacing: 1px;
+                                                position: absolute;
+                                                left: 0;
+                                                bottom: -16px;
+                                                color: $remind;
+                                            }
 
-                                                input {
-                                                    width: 258px;
-                                                    height: 42px;
-                                                    @include mainInput;
-                                                }
-
-                                                .err {
-                                                    display: none;
-                                                    font-size: 12px;
-                                                    padding-top: 3px;
-                                                    color: $remind;
-
-                                                    &.display {
-                                                        display: block;
-                                                    }
-                                                }
-
-                                                small {
-                                                    font-size: 12px;
-                                                    letter-spacing: 1px;
-                                                    position: absolute;
-                                                    left: 0;
-                                                    bottom: -16px;
-                                                    color: $remind;
-                                                }
-
-                                                button {
-                                                    width: 255px;
-                                                    height: 42px;
-                                                    margin-left: 8px;
-                                                    @include mainBtn;
-                                                }
+                                            button {
+                                                width: 255px;
+                                                height: 42px;
+                                                margin-left: 8px;
+                                                @include mainBtn2;
                                             }
                                         }
                                     }
@@ -2529,7 +2526,7 @@
                                     button {
                                         width: 152px;
                                         height: 42px;
-                                        @include jumpwindowBTN;
+                                        @include mainBtn2;
                                     }
                                 }
                             }
@@ -2719,6 +2716,7 @@
                 background: $mainBG_1;
                 box-shadow: 0 5px 10px -5px $mainShadow_1;
                 border: 1px solid $blockBoreder;
+
                 form {
                     width: 100%;
                     height: auto;
@@ -2799,7 +2797,7 @@
                         .checkBtn {
                             width: 152px;
                             height: 43px;
-                            @include jumpwindowBTN;
+                            @include mainBtn2;
                         }
                     }
                 }
@@ -3168,7 +3166,7 @@
                                 width: 257px;
                                 height: 41px;
                                 margin: 28px 0 0 108px;
-                                @include jumpwindowBTN;
+                                @include mainBtn2;
                             }
                         }
 
@@ -3534,7 +3532,7 @@
                                         &.check {
                                             width: 256px;
                                             height: 42px;
-                                            @include jumpwindowBTN;
+                                            @include mainBtn2;
                                             margin-top: 15px;
                                         }
                                     }
@@ -4062,7 +4060,7 @@
                     .check {
                         width: 140px;
                         height: 36px;
-                        @include jumpwindowBTN;
+                        @include mainBtn2;
                     }
                 }
     

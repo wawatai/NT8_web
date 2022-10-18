@@ -1451,6 +1451,10 @@ html body .mainWrap .center .typeList li {
   position: relative;
   cursor: pointer;
 }
+html body .mainWrap .center .typeList li:hover, html body .mainWrap .center .typeList li:active, html body .mainWrap .center .typeList li.active {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+}
 html body .mainWrap .center .typeList li:nth-of-type(4n) {
   margin-right: 0px;
 }
@@ -1686,8 +1690,8 @@ html body .filter .jumpWindow.forgetPassword form button {
   width: 272px;
   height: 42px;
   margin-top: 15px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -1823,8 +1827,8 @@ html body .filter .jumpWindow.plsGo .btnBox {
 html body .filter .jumpWindow.plsGo .btnBox button {
   width: 322px;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -2105,8 +2109,8 @@ html body .filter .jumpWindow.checkEvent .btnBox {
 html body .filter .jumpWindow.checkEvent .btnBox button {
   width: 322px;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -2393,8 +2397,8 @@ html body .filter .jumpWindow.notExist .btnBox {
 html body .filter .jumpWindow.notExist .btnBox button {
   width: 322px;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -2431,8 +2435,8 @@ html body .filter .jumpWindow.idpwRequire .btnBox {
 html body .filter .jumpWindow.idpwRequire .btnBox button {
   width: 322px;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -3631,8 +3635,8 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .content .fakeTable l
   height: 42px;
   position: relative;
   left: 110px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -3812,23 +3816,21 @@ html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li
 html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li button {
   width: 80px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
   margin-left: 10px;
 }
 html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li button:hover, html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li button:active, html body .innerPage .center .memberWrap .bottom .dataWrap .changePassword ul li button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .memberWrap .bottom .platformWrap {
   display: none;
@@ -4783,22 +4785,22 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom {
           box-sizing: border-box;
   padding: 15px 20px 35px;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .title {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .title {
   font-size: 17px;
   letter-spacing: 2px;
   font-weight: bold;
   color: #956817;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox {
   margin-top: 25px;
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form {
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4809,7 +4811,7 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .form
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row {
   width: 100%;
   height: auto;
   display: -webkit-box;
@@ -4817,7 +4819,7 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .form
   display: flex;
   margin-bottom: 35px;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .smallTitle {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .smallTitle {
   width: 98px;
   font-size: 14px;
   display: -webkit-box;
@@ -4834,26 +4836,26 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .form
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .smallTitle span {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .smallTitle span {
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: bold;
   color: #333333;
   white-space: nowrap;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .smallTitle span::before {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .smallTitle span::before {
   content: "※";
   font-size: 13px;
   margin-right: 5px;
   letter-spacing: 1px;
   color: #e11515;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox {
   position: relative;
   width: 100%;
   height: auto;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox input {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox input {
   width: 258px;
   height: 42px;
   background: #ffffff;
@@ -4866,31 +4868,31 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .form
           box-sizing: border-box;
   padding: 0 20px;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox input::-webkit-input-placeholder {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox input::-webkit-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox input::-moz-placeholder {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox input::-moz-placeholder {
   color: #848484;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox input:-ms-input-placeholder {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox input:-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox input::-ms-input-placeholder {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox input::-ms-input-placeholder {
   color: #848484;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox input::placeholder {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox input::placeholder {
   color: #848484;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox .err {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox .err {
   display: none;
   font-size: 12px;
   padding-top: 3px;
   color: #e11515;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox .err.display {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox .err.display {
   display: block;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox small {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox small {
   font-size: 12px;
   letter-spacing: 1px;
   position: absolute;
@@ -4898,26 +4900,24 @@ html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .form
   bottom: -16px;
   color: #e11515;
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox button {
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox button {
   width: 255px;
   height: 42px;
   margin-left: 8px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
-html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox button:hover, html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox button:active, html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom div .formBox form .content .row .inputBox button.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox button:hover, html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox button:active, html body .innerPage .center .cardWrap .cardMiddle .bottomWrap .bottom .formBox form .content .row .inputBox button.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .rightSide {
   width: 245px;
@@ -6242,8 +6242,8 @@ html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form
 html body .innerPage .center .dealWrap .bottom .dealBox .reviewWrap .search form .checkBtn button {
   width: 152px;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -6573,8 +6573,8 @@ html body .innerPage .center .betWrap .bottom form .timeGroup .timeBox .btnBox b
 html body .innerPage .center .betWrap .bottom form .timeGroup .checkBtn {
   width: 152px;
   height: 43px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -7001,8 +7001,8 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content form b
   width: 257px;
   height: 41px;
   margin: 28px 0 0 108px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -7501,8 +7501,8 @@ html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBo
 html body .innerPage .center .transferWrap .transferMiddle .bottom form .moneyBox .inputBox .btnBox button.check {
   width: 256px;
   height: 42px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;
@@ -8167,8 +8167,8 @@ html body .innerPage .center .pointWrap .bottom .searchBox .left .btnBox button:
 html body .innerPage .center .pointWrap .bottom .searchBox .check {
   width: 140px;
   height: 36px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
-  background: linear-gradient(#d79515 2%, #955c18 50%, #d79515 94%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
   color: #ffffff;
   font-size: 16px;
   border: 0px;

@@ -88,6 +88,10 @@
                 position: relative;
                 cursor: pointer;
 
+                &:hover, &:active, &.active {
+                    filter: brightness(0.8);
+                }
+
                 &:nth-of-type(4n) {
                     margin-right: 0px;
                 }
