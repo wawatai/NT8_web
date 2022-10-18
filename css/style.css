@@ -1157,6 +1157,12 @@ html body header .topGameList .listWrap .center .container ul li .fixBox p {
 html body header .topGameList .listWrap .center .container ul li .fixBox p.title {
   margin-bottom: 30px;
 }
+html body header .topGameList .listWrap .center .container ul li:hover img, html body header .topGameList .listWrap .center .container ul li:active img, html body header .topGameList .listWrap .center .container ul li.active img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
 html body .ad {
   width: 100%;
   min-width: 1400px;

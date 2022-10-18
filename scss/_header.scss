@@ -420,7 +420,10 @@ header {
                             }
 
                             &:hover,&:active,&.active {
-                                
+                                img {
+                                    transform: scale(1.05);
+                                    filter: brightness(1.1);
+                                }
                             }
                         }
                     }
