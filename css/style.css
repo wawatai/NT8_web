@@ -2964,6 +2964,7 @@ html body .eventWrap .eventTitle .titleClip {
 html body .eventWrap .eventTitle .titleClip p {
   font-size: 61px;
   font-weight: bold;
+  color: transparent;
 }
 html body .eventWrap .eventBody {
   width: 1400px;
