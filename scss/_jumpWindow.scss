@@ -195,7 +195,7 @@
                     width: 100%;
                     height: auto;
                     box-sizing: border-box;
-                    padding: 24px 80px;
+                    padding: 28px 40px;
 
                     li {
                         width: 100%;
@@ -210,18 +210,19 @@
                     input {
                         width: 100%;
                         height: 42px;
-                        @include mainInput
+                        @include mainInput;
+                        border-radius: 30px;
                     }
                 }
 
                 .btnBox {
-                    padding-bottom: 43px;
+                    padding-bottom: 40px;
                     text-align: center;
 
                     button {
-                        width: 322px;
+                        width: 240px;
                         height: 42px;
-                        @include mainBtn
+                        @include mainBtn2
                     }
                 }
             }
@@ -241,7 +242,7 @@
                     width: 100%;
                     height: auto;
                     box-sizing: border-box;
-                    padding: 24px 80px;
+                    padding: 30px 48px;
 
                     li {
                         width: 100%;
@@ -261,6 +262,7 @@
                             width: auto;
                             height: 30px;
                             @include borderBtn;
+                            border-radius: 30ㄌ;
                             padding: 0 5px;
                             position: absolute;
                             top: 50%;
@@ -273,15 +275,16 @@
                         width: 100%;
                         height: 42px;
                         @include mainInput;
+                        border-radius: 30px;
                     }
                 }
 
                 .btnBox {
-                    padding-bottom: 20px;
+                    padding-bottom: 26px;
                     text-align: center;
 
                     button {
-                        width: 322px;
+                        width: 235px;
                         height: 42px;
                         @include mainBtn2;
                     }
@@ -336,7 +339,7 @@
                         th {
                             height: 40px;
                             vertical-align: middle;
-                            border-bottom: solid 2px $mainBorder_2;
+                            border-bottom: solid 2px $blockBoreder;
 
                             p {
                                 font-size: 14px;
@@ -572,6 +575,7 @@
                         }
 
                         th {
+                            border-bottom: solid 2px $blockBoreder;
                             vertical-align: middle;
                             height: 40px;
 
