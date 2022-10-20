@@ -1751,7 +1751,7 @@ html body .filter .jumpWindow.news .nav li {
           align-items: center;
 }
 html body .filter .jumpWindow.news .nav li:hover, html body .filter .jumpWindow.news .nav li:active, html body .filter .jumpWindow.news .nav li.active {
-  color: #dcb160;
+  color: #956817;
   border-color: #f7be50;
 }
 html body .filter .jumpWindow.news .nav li::before {
@@ -2250,23 +2250,21 @@ html body .filter .jumpWindow.betWindow form .row .btnBox button:nth-of-type(3n)
 html body .filter .jumpWindow.betWindow form .row .check {
   width: 267px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
   margin-bottom: 20px;
 }
 html body .filter .jumpWindow.betWindow form .row .check:hover, html body .filter .jumpWindow.betWindow form .row .check:active, html body .filter .jumpWindow.betWindow form .row .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .filter .jumpWindow.betWindow .enterGame {
   width: 100%;
