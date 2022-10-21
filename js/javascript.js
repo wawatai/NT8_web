@@ -232,6 +232,16 @@ $(function(){
         $('.jumpWindow').removeClass('display');
         $('.filter,.pointWindow').addClass('display');
     })
+
+    // $('.registerWrap .right label .reciveNum').click(function(){
+    //     $('.jumpWindow').removeClass('display');
+    //     $('.filter,.phoneWindow').addClass('display');
+    // })
+
+    $('.registerWrap .right .checkBox .agreePolicy').click(function(){
+        $('.jumpWindow').removeClass('display');
+        $('.filter,.policyWindow').addClass('display');
+    })
 })
 function unlogin(){
     $('.jumpWindow').removeClass('display');

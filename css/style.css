@@ -411,7 +411,7 @@ footer .top li.active {
 }
 
 .registerWrap .person_ic {
-  background: url("../images/icon/svg/register.svg") no-repeat;
+  background: url("../images/icon/registIC.png") no-repeat;
   background-size: 100%;
 }
 
@@ -2451,6 +2451,148 @@ html body .filter .jumpWindow.idpwRequire .btnBox button {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 html body .filter .jumpWindow.idpwRequire .btnBox button:hover, html body .filter .jumpWindow.idpwRequire .btnBox button:active, html body .filter .jumpWindow.idpwRequire .btnBox button.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+html body .filter .jumpWindow.phoneNumWindow {
+  display: none;
+  height: 400px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+html body .filter .jumpWindow.phoneNumWindow.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body .filter .jumpWindow.phoneNumWindow .content {
+  color: #4c4d53;
+  font-size: 16px;
+  padding: 61px 80px 32px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+html body .filter .jumpWindow.phoneNumWindow .checkBox {
+  text-align: center;
+  padding: 20px 0;
+}
+html body .filter .jumpWindow.phoneNumWindow .checkBox button {
+  width: 322px;
+  height: 42px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+html body .filter .jumpWindow.phoneNumWindow .checkBox button:hover, html body .filter .jumpWindow.phoneNumWindow .checkBox button:active, html body .filter .jumpWindow.phoneNumWindow .checkBox button.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+html body .filter .jumpWindow.policyWindow {
+  display: none;
+  width: 840px;
+  height: 584px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+html body .filter .jumpWindow.policyWindow.display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+html body .filter .jumpWindow.policyWindow .content {
+  width: 100%;
+  height: 80%;
+  color: #4c4d53;
+  font-size: 16px;
+  padding: 28px 47px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-y: auto;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox {
+  width: 100%;
+  height: auto;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox .smallTitle {
+  color: #77400b;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox .contentBox {
+  width: 100%;
+  height: auto;
+  margin: 16px 0 25px;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox .contentBox p {
+  color: #4c4d53;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox .contentBox ul {
+  padding-left: 2em;
+  color: #4c4d53;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 25px 0;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox .contentBox ul li {
+  list-style: disc;
+  margin: 0 0 20px;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox .contentBox ul ol {
+  margin: 0 0 30px;
+}
+html body .filter .jumpWindow.policyWindow .content .chapterBox .contentBox ul ol li {
+  list-style-type: lower-roman;
+  margin: 20px 0;
+}
+html body .filter .jumpWindow.policyWindow .checkBox {
+  padding: 20px 47px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+html body .filter .jumpWindow.policyWindow .checkBox button {
+  width: 322px;
+  height: 42px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+html body .filter .jumpWindow.policyWindow .checkBox button:hover, html body .filter .jumpWindow.policyWindow .checkBox button:active, html body .filter .jumpWindow.policyWindow .checkBox button.active {
   background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
   background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
@@ -8585,6 +8727,8 @@ html body .registerWrap .bigBox .right {
   width: 432px;
   padding: 32px 0 37px;
   background: #ffffff;
+  border: 1px solid #dd9d28;
+  border-radius: 0 17px 17px 0;
 }
 html body .registerWrap .bigBox .right .title {
   display: -webkit-box;
@@ -8593,7 +8737,7 @@ html body .registerWrap .bigBox .right .title {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 14px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -8602,12 +8746,30 @@ html body .registerWrap .bigBox .right .title {
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #333333;
+  color: #956817;
 }
 html body .registerWrap .bigBox .right .title .person_ic {
   width: 44px;
   height: 44px;
   margin-right: 15px;
+}
+html body .registerWrap .bigBox .right .title .person_ic::before {
+  content: "";
+  width: 36px;
+  height: 36px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f8cf56), color-stop(29%, #df9e28), color-stop(62%, #ffd967));
+  background: linear-gradient(to top, #f8cf56 0%, #df9e28 29%, #ffd967 62%);
+  border-radius: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
+}
+html body .registerWrap .bigBox .right .titleDeco {
+  width: 332px;
+  height: 4px;
+  background: #dd9d28;
+  margin-bottom: 28px;
 }
 html body .registerWrap .bigBox .right label {
   position: relative;
@@ -8704,7 +8866,7 @@ html body .registerWrap .bigBox .right .checkBox {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 23px 0 32px;
+  margin: 13px 0 32px;
 }
 html body .registerWrap .bigBox .right .checkBox input {
   width: 16px;
@@ -8718,29 +8880,41 @@ html body .registerWrap .bigBox .right .checkBox p {
 }
 html body .registerWrap .bigBox .right .checkBox p span {
   color: #181dd5;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-left: 5px;
 }
 html body .registerWrap .bigBox .right .checkBtn {
   width: 332px;
   height: 41px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #5064c9), color-stop(52%, #2b3b87), color-stop(86%, #5064c9));
+  background: linear-gradient(to bottom, #5064c9 1%, #2b3b87 52%, #5064c9 86%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
   border-radius: 100px;
 }
 html body .registerWrap .bigBox .right .checkBtn:hover, html body .registerWrap .bigBox .right .checkBtn:active, html body .registerWrap .bigBox .right .checkBtn.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(1%, #5064c9), color-stop(79%, #2b3b87));
+  background: linear-gradient(to top, #5064c9 1%, #2b3b87 79%);
 }
 html body .registerWrap .bigBox .right .checkBtn:last-child {
   margin-top: 10px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+html body .registerWrap .bigBox .right .checkBtn:last-child:hover, html body .registerWrap .bigBox .right .checkBtn:last-child:active, html body .registerWrap .bigBox .right .checkBtn:last-child.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .bg {
   position: absolute;

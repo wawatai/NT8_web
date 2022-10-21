@@ -413,6 +413,17 @@ $footerNAV_HOV: #aa7217;
   }
 }
 
+@mixin mainBtn3 {
+  background: linear-gradient(to bottom, #5064c9 1%, #2b3b87 52%, #5064c9 86%);
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 100px;
+
+  &:hover,&:active,&.active {
+    background: linear-gradient(to top, #5064c9 1%, #2b3b87 79%);
+  }
+}
+
 //遊戲快速轉帳彈窗按鈕
 @mixin fastBtn {
   background: linear-gradient(to bottom, #ffffff 40%, #f4f4f4 100%);
