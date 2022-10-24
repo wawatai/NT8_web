@@ -2336,6 +2336,12 @@ html body .filter .jumpWindow.loading .content p {
             transform: rotate(360deg);
   }
 }
+html body .filter .jumpWindow.pointWindow {
+  display: none;
+}
+html body .filter .jumpWindow.pointWindow.display {
+  display: block;
+}
 html body .filter .jumpWindow.pointWindow .content {
   padding: 24px;
 }
@@ -2458,16 +2464,14 @@ html body .filter .jumpWindow.idpwRequire .btnBox button:hover, html body .filte
 }
 html body .filter .jumpWindow.phoneNumWindow {
   display: none;
-  height: 400px;
+  height: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 html body .filter .jumpWindow.phoneNumWindow.display {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 html body .filter .jumpWindow.phoneNumWindow .content {
   color: #4c4d53;
@@ -2597,6 +2601,57 @@ html body .filter .jumpWindow.policyWindow .checkBox button:hover, html body .fi
   background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
           box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+html body .filter .jumpWindow.pointDetail {
+  display: none;
+  width: 750px;
+}
+html body .filter .jumpWindow.pointDetail.display {
+  display: block;
+}
+html body .filter .jumpWindow.pointDetail .content {
+  padding: 24px;
+}
+html body .filter .jumpWindow.pointDetail .content table {
+  width: 100%;
+  height: auto;
+  -webkit-box-shadow: 0 0 0 1px #c29f64;
+          box-shadow: 0 0 0 1px #c29f64;
+}
+html body .filter .jumpWindow.pointDetail .content table tr {
+  border-bottom: solid 1px #c29f64;
+}
+html body .filter .jumpWindow.pointDetail .content table tr:last-child {
+  border: none;
+}
+html body .filter .jumpWindow.pointDetail .content table tr th {
+  border-bottom: solid 2px #dd9d28;
+  vertical-align: middle;
+  height: 40px;
+}
+html body .filter .jumpWindow.pointDetail .content table tr th:last-child p {
+  border: none;
+}
+html body .filter .jumpWindow.pointDetail .content table tr th p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #956817;
+  border-right: solid 1px #cccccc;
+}
+html body .filter .jumpWindow.pointDetail .content table tr td {
+  width: 33.5%;
+  vertical-align: middle;
+  height: 40px;
+}
+html body .filter .jumpWindow.pointDetail .content table tr td:last-child p {
+  border: none;
+}
+html body .filter .jumpWindow.pointDetail .content table tr td p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  border-right: solid 1px #cccccc;
+  text-align: center;
 }
 html body .filter .jumpWindow .title {
   width: 100%;
@@ -2815,7 +2870,7 @@ html body .gameWrap .content .btnBox .innBox ul li p {
   text-align: center;
   font-size: 14px;
   color: #333333;
-  padding-top: 5px;
+  padding-top: 10px;
   font-weight: bold;
 }
 html body .gameWrap .slotCenter {
@@ -7280,22 +7335,20 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li.
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li.btnBox .check {
   width: 257px;
   height: 42px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li.btnBox .check:hover, html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li.btnBox .check:active, html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li.btnBox .check.active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li p {
   font-size: 14px;
@@ -7324,23 +7377,21 @@ html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li 
   color: #ffffff;
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li button:nth-of-type(2) {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(24%, #f8cf56), color-stop(39%, #df9e28), color-stop(69%, #ffd967));
-  background: linear-gradient(to top, #f8cf56 24%, #df9e28 39%, #ffd967 69%);
-  border: solid 1px #cca172;
-  color: #333333;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(2%, #d79515), color-stop(50%, #955c18), color-stop(94%, #d79515));
+  background: linear-gradient(to top, #d79515 2%, #955c18 50%, #d79515 94%);
+  color: #ffffff;
   font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  border-radius: 100px;
+  border: 0px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
   margin-left: 8px;
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li button:nth-of-type(2):hover, html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li button:nth-of-type(2):active, html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li button:nth-of-type(2).active {
-  background: -webkit-gradient(linear, left bottom, left top, from(#3351c1), to(#0d2676));
-  background: linear-gradient(to top, #3351c1 0%, #0d2676 100%);
-  border: 1px solid #f7be50;
-  color: #ffe167;
-  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, left top, from(#b77c0b), to(#87580f));
+  background: linear-gradient(to top, #b77c0b 0%, #87580f 100%);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 }
 html body .innerPage .center .depositWrap .depositMiddle .bottom .content ul li .remind {
   position: absolute;
@@ -8447,6 +8498,11 @@ html body .innerPage .center .pointWrap .bottom table tr td p {
   border-right: solid 1px #cccccc;
 }
 html body .innerPage .center .pointWrap .bottom table tr td p.open {
+  text-decoration: underline;
+  color: #181dd5;
+  cursor: pointer;
+}
+html body .innerPage .center .pointWrap .bottom table tr td p.openDetail {
   text-decoration: underline;
   color: #181dd5;
   cursor: pointer;

@@ -227,20 +227,21 @@ $(function(){
         $('.jumpWindow').removeClass('display');
         $('.filter,.betWindow.lotteryGame').addClass('display');
     })
-
+    $('.registerWrap .right .checkBox .agreePolicy').click(function(){
+        $('.jumpWindow').removeClass('display');
+        $('.filter,.policyWindow').addClass('display');
+    })
+    $('.registerWrap .right label .reciveNum').click(function(){
+        $('.jumpWindow').removeClass('display');
+        $('.filter,.phoneNumWindow').addClass('display');
+     })
     $(".pointWrap .open").click(function(){
         $('.jumpWindow').removeClass('display');
         $('.filter,.pointWindow').addClass('display');
     })
-
-    // $('.registerWrap .right label .reciveNum').click(function(){
-    //     $('.jumpWindow').removeClass('display');
-    //     $('.filter,.phoneWindow').addClass('display');
-    // })
-
-    $('.registerWrap .right .checkBox .agreePolicy').click(function(){
+    $(".pointWrap .openDetail").click(function(){
         $('.jumpWindow').removeClass('display');
-        $('.filter,.policyWindow').addClass('display');
+        $('.filter,.pointDetail').addClass('display');
     })
 })
 function unlogin(){

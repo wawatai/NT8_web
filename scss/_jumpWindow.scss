@@ -558,6 +558,11 @@
 
         //紅利會員彈窗
         &.pointWindow {
+            display: none;
+
+            &.display {
+                display: block;
+            }
 
             .content {
                 padding: 24px;
@@ -650,6 +655,7 @@
                 }
             }
         }
+
         //帳號密碼必填
         &.idpwRequire {
             display: none;
@@ -685,11 +691,11 @@
         //取得驗證碼
          &.phoneNumWindow {
             display: none;
-            height: 400px;
+            height: auto;
             flex-direction: column;
              
              &.display { 
-                 display: flex;
+                 display: block;
              }
              
              .content {
@@ -794,6 +800,75 @@
                     height: 42px;
                     @include mainBtn2;
                     box-shadow: 0 3px 6px $mainShadow_1;
+                }
+            }
+        }
+
+        //會員明細
+        &.pointDetail {
+            display: none;
+            width: 750px;
+
+            &.display {
+                display: block;
+            }
+
+            .content {
+                padding: 24px;
+
+                table {
+                    width: 100%;
+                    height: auto;
+                    box-shadow: 0 0 0 1px $mainBorder_2;
+
+                    tr {
+                        border-bottom: solid 1px $mainBorder_2;
+
+                        &:last-child {
+                            border: none;
+                        }
+
+                        th {
+                            border-bottom: solid 2px $blockBoreder;
+                            vertical-align: middle;
+                            height: 40px;
+
+                            &:last-child {
+
+                                p {
+                                    border: none;
+                                }
+                            }
+
+                            p {
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: $title_2;
+                                border-right: solid 1px $mainBorder_1;
+                            }
+                        }
+
+                        td {
+                            width: 33.5%;
+                            vertical-align: middle;
+                            height: 40px;
+
+                            &:last-child {
+
+                                p {
+                                    border: none;
+                                }
+                            }
+                            
+                            p {
+                                font-size: 14px;
+                                font-weight: bold;
+                                color: $mainFont_1;
+                                border-right: solid 1px $mainBorder_1;
+                                text-align: center;
+                            }
+                        }
+                    }
                 }
             }
         }

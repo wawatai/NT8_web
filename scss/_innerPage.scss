@@ -3298,7 +3298,7 @@
                                     .check {
                                         width: 257px;
                                         height: 42px;
-                                        @include mainBtn;
+                                        @include mainBtn2;
                                     }
                                 }
                                 
@@ -3323,7 +3323,7 @@
                                     @include borderBtn;
 
                                     &:nth-of-type(2) {
-                                        @include mainBtn;
+                                        @include mainBtn2;
                                         margin-left: 8px;
                                     }
                                 }
@@ -4207,6 +4207,12 @@
                                 border-right: solid 1px $mainBorder_1;
     
                                 &.open {
+                                    text-decoration: underline;
+                                    color: $link;
+                                    cursor: pointer;
+                                }
+
+                                &.openDetail {
                                     text-decoration: underline;
                                     color: $link;
                                     cursor: pointer;
