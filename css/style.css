@@ -2471,7 +2471,9 @@ html body .filter .jumpWindow.phoneNumWindow {
           flex-direction: column;
 }
 html body .filter .jumpWindow.phoneNumWindow.display {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 html body .filter .jumpWindow.phoneNumWindow .content {
   color: #4c4d53;
