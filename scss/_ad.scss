@@ -74,6 +74,7 @@
                     background: $adBTN;
                     margin-right: 30px;
                     border-radius: 50px;
+                    box-shadow: 0px 0px 6px $adDotShadow;
 
                     &:last-child {
                         margin: 0;
@@ -82,8 +83,25 @@
 
                 &:hover, &:active, &.active {
                     &::before {
-                        background: #fff695;
+                        background: $adDot;
                     } 
+                }
+            }
+        }
+
+        .slick-active {
+            button {
+                &::before {
+                    content: "";
+                    width: 15px;
+                    height: 15px;
+                    background: $adDot;
+                    margin-right: 30px;
+                    border-radius: 50px;
+
+                    &:last-child {
+                        margin: 0;
+                    }
                 }
             }
         }

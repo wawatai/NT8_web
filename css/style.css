@@ -1180,7 +1180,7 @@ html body .ad .single-item .slick-arrow {
 html body .ad .single-item .slick-arrow.slick-prev {
   width: 36px;
   height: 36px;
-  background: rgba(221, 213, 213, 0.6156862745);
+  background: rgba(184, 179, 179, 0.662745098);
   border-radius: 50px;
   position: absolute;
   top: 461px;
@@ -1198,7 +1198,7 @@ html body .ad .single-item .slick-arrow.slick-prev::before {
 html body .ad .single-item .slick-arrow.slick-next {
   width: 36px;
   height: 36px;
-  background: rgba(221, 213, 213, 0.6156862745);
+  background: rgba(184, 179, 179, 0.662745098);
   border-radius: 50px;
   position: absolute;
   top: 461px;
@@ -1233,15 +1233,28 @@ html body .ad .single-item .slick-dots button::before {
   content: "";
   width: 15px;
   height: 15px;
-  background: rgba(221, 213, 213, 0.6156862745);
+  background: rgba(184, 179, 179, 0.662745098);
   margin-right: 30px;
   border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 6px rgba(240, 157, 40, 0.3882352941);
+          box-shadow: 0px 0px 6px rgba(240, 157, 40, 0.3882352941);
 }
 html body .ad .single-item .slick-dots button::before:last-child {
   margin: 0;
 }
 html body .ad .single-item .slick-dots button:hover::before, html body .ad .single-item .slick-dots button:active::before, html body .ad .single-item .slick-dots button.active::before {
   background: #fff695;
+}
+html body .ad .single-item .slick-active button::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  background: #fff695;
+  margin-right: 30px;
+  border-radius: 50px;
+}
+html body .ad .single-item .slick-active button::before:last-child {
+  margin: 0;
 }
 html body .sideBar .download {
   position: fixed;
@@ -3337,7 +3350,7 @@ html body .eventWrap .buttonArea button:hover, html body .eventWrap .buttonArea 
 html body .eventWrap .buttonArea button.prevBtn, html body .eventWrap .buttonArea button.nextBtn {
   width: 18px;
   height: 18px;
-  background: rgba(221, 213, 213, 0.6156862745);
+  background: rgba(184, 179, 179, 0.662745098);
   position: relative;
 }
 html body .eventWrap .buttonArea button.prevBtn::before, html body .eventWrap .buttonArea button.nextBtn::before {
