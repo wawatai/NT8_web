@@ -501,8 +501,9 @@ header .logo {
 }
 .eventBox .imgBox img {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .checkEvent .imgBox img {
@@ -1179,10 +1180,10 @@ html body .ad .single-item .slick-arrow {
 html body .ad .single-item .slick-arrow.slick-prev {
   width: 36px;
   height: 36px;
-  background: rgba(255, 255, 255, 0.5058823529);
+  background: rgba(221, 213, 213, 0.6156862745);
   border-radius: 50px;
   position: absolute;
-  top: 459px;
+  top: 461px;
   left: 838px;
   z-index: 2;
 }
@@ -1197,11 +1198,11 @@ html body .ad .single-item .slick-arrow.slick-prev::before {
 html body .ad .single-item .slick-arrow.slick-next {
   width: 36px;
   height: 36px;
-  background: rgba(255, 255, 255, 0.5058823529);
+  background: rgba(221, 213, 213, 0.6156862745);
   border-radius: 50px;
   position: absolute;
-  top: 459px;
-  right: 848px;
+  top: 461px;
+  right: 838px;
 }
 html body .ad .single-item .slick-arrow.slick-next::before {
   content: "";
@@ -1232,7 +1233,7 @@ html body .ad .single-item .slick-dots button::before {
   content: "";
   width: 15px;
   height: 15px;
-  background: rgba(255, 255, 255, 0.5058823529);
+  background: rgba(221, 213, 213, 0.6156862745);
   margin-right: 30px;
   border-radius: 50px;
 }
@@ -3336,7 +3337,7 @@ html body .eventWrap .buttonArea button:hover, html body .eventWrap .buttonArea 
 html body .eventWrap .buttonArea button.prevBtn, html body .eventWrap .buttonArea button.nextBtn {
   width: 18px;
   height: 18px;
-  background: rgba(255, 255, 255, 0.5058823529);
+  background: rgba(221, 213, 213, 0.6156862745);
   position: relative;
 }
 html body .eventWrap .buttonArea button.prevBtn::before, html body .eventWrap .buttonArea button.nextBtn::before {
