@@ -279,17 +279,17 @@ $(function(){
         var n = $(this).index();
 
         $(".gameWrap .sportPage .mainImg")
-        .attr("src","../images/partner/sport/sportBG_"+ (n + 1) +".png");
+        .attr("src","../images/headerDrop/sport/sportBG_"+ (n + 1) +".png");
         $(".gameWrap .livePage .mainImg")
-        .attr("src","../images/partner/live/liveBG_"+ (n + 1) +".png");
+        .attr("src","../images/headerDrop/live/liveBG_"+ (n + 1) +".png");
         $(".gameWrap .lotteryPage .mainImg")
-        .attr("src","../images/partner/lottery/lotteryBG_"+ (n + 1) +".png");
+        .attr("src","../images/headerDrop/lottery/lotteryBG_"+ (n + 1) +".png");
         $(".gameWrap .slotPage .mainImg")
-        .attr("src","../images/partner/slot/slotBG_"+ (n + 1) +".png");
+        .attr("src","../images/headerDrop/slot/slotBG_"+ (n + 1) +".png");
         $(".gameWrap .fishPage .mainImg")
-        .attr("src","../images/partner/fish/fishBG_"+ (n + 1) +".png");
+        .attr("src","../images/headerDrop/fish/fishBG_"+ (n + 1) +".png");
         $(".gameWrap .boardPage .mainImg")
-        .attr("src","../images/partner/board/boardBG_"+ (n + 1) +".png");
+        .attr("src","../images/headerDrop/board/boardBG_"+ (n + 1) +".png");
     })
 })
 
