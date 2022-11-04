@@ -2,7 +2,10 @@ header {
     width: 100%;
     height: 120px;
     background: $header_topBG;
-    position: relative;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
 
     //上部
     .top {
@@ -421,7 +424,8 @@ header {
 
                             &:hover,&:active,&.active {
                                 img {
-                                    transform: scale(1.05);
+                                    transform: scale(1.09);
+                                    transition: 0.4s;
                                     filter: brightness(1.1);
                                 }
                             }
